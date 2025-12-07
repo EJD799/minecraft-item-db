@@ -1,4 +1,4 @@
-// Minecraft Item DB (Modified Build)
+// Minecraft Item DB
 // 2025 EJD799
 // https://github.com/ejd799/minecraft-item-db
 
