@@ -1,6 +1,5 @@
 
 # minecraft-item-db
-⚠️ This is not complete! The JSON file will be added soon. ⚠️
 A database of all the item IDs, names, and icon sources in Minecraft, in JSON format.
 
 **Format:**
