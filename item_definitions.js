@@ -1,1044 +1,1066 @@
-// Minecraft Item DB
+// Minecraft Item DB v1.1
+// Java Version: 1.21.11
+// Bedrock Version: 1.21.130
 // 2025 EJD799
 // https://github.com/ejd799/minecraft-item-db
 
 const itemDefinitions = {
     "minecraft:acacia_boat": {
         name: "Acacia Boat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/acacia_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/acacia_boat.png"
     },
     "minecraft:acacia_chest_boat": {
         name: "Acacia Boat with Chest",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/acacia_chest_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/acacia_chest_boat.png"
     },
     "minecraft:armor_stand": {
         name: "Armor Stand",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/armor_stand.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/armor_stand.png"
     },
     "minecraft:bamboo_raft": {
         name: "Bamboo Raft",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bamboo_raft.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bamboo_raft.png"
     },
     "minecraft:bamboo_chest_raft": {
         name: "Bamboo Raft with Chest",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bamboo_chest_raft.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bamboo_chest_raft.png"
     },
     "minecraft:beetroot_seeds": {
         name: "Beetroot Seeds",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/beetroot_seeds.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/beetroot_seeds.png"
     },
     "minecraft:birch_boat": {
         name: "Birch Boat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/birch_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/birch_boat.png"
     },
     "minecraft:birch_chest_boat": {
         name: "Birch Chest Boat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/birch_chest_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/birch_chest_boat.png"
     },
     "minecraft:blue_egg": {
         name: "Blue Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/blue_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/blue_egg.png"
     },
     "minecraft:experience_bottle": {
         name: "Bottle o' Enchanting",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/experience_bottle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/experience_bottle.png"
     },
     "minecraft:bow": {
         name: "Bow",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bow.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bow.png"
     },
     "minecraft:brown_egg": {
         name: "Brown Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/brown_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/brown_egg.png"
     },
     "minecraft:bucket": {
         name: "Bucket",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bucket.png"
     },
     "minecraft:axolotl_bucket": {
         name: "Bucket of Axolotl",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/axolotl_bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/axolotl_bucket.png"
     },
     "minecraft:cod_bucket": {
         name: "Bucket of Cod",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cod_bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cod_bucket.png"
     },
     "minecraft:pufferfish_bucket": {
         name: "Bucket of Pufferfish",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pufferfish_bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pufferfish_bucket.png"
     },
     "minecraft:salmon_bucket": {
         name: "Bucket of Salmon",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/salmon_bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/salmon_bucket.png"
     },
     "minecraft:tadpole_bucket": {
         name: "Bucket of Tadpole",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/tadpole_bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/tadpole_bucket.png"
     },
     "minecraft:tropical_fish_bucket": {
         name: "Bucket of Tropical Fish",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/tropical_fish_bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/tropical_fish_bucket.png"
     },
     "minecraft:carrot": {
         name: "Carrot",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/carrot.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/carrot.png"
     },
     "minecraft:cherry_boat": {
         name: "Cherry Boat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cherry_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cherry_boat.png"
     },
     "minecraft:cherry_chest_boat": {
         name: "Cherry Boat with Chest",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cherry_chest_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cherry_chest_boat.png"
     },
     "minecraft:cocoa_beans": {
         name: "Cocoa Beans",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cocoa_beans.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cocoa_beans.png"
     },
     "minecraft:crossbow": {
         name: "Crossbow",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/crossbow_standby.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/crossbow_standby.png"
     },
     "minecraft:dark_oak_boat": {
         name: "Dark Oak Boat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/dark_oak_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/dark_oak_boat.png"
     },
     "minecraft:dark_oak_chest_boat": {
         name: "Dark Oak Boat with Chest",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/dark_oak_chest_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/dark_oak_chest_boat.png"
     },
     "minecraft:egg": {
         name: "Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/egg.png"
     },
     "minecraft:end_crystal": {
         name: "End Crystal",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/end_crystal.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/end_crystal.png"
     },
     "minecraft:ender_pearl": {
         name: "Ender Pearl",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ender_pearl.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ender_pearl.png"
     },
     "minecraft:ender_eye": {
         name: "Eye of Ender",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ender_eye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ender_eye.png"
     },
     "minecraft:fire_charge": {
         name: "Fire Charge",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/fire_charge.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/fire_charge.png"
     },
     "minecraft:firework_rocket": {
         name: "Firework Rocket",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/firework_rocket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/firework_rocket.png"
     },
     "minecraft:fishing_rod": {
         name: "Fishing Rod",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/fishing_rod.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/fishing_rod.png"
     },
     "minecraft:flint_and_steel": {
         name: "Flint and Steel",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/flint_and_steel.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/flint_and_steel.png"
     },
     "minecraft:glow_berries": {
         name: "Glow Berries",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/glow_berries.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/glow_berries.png"
     },
     "minecraft:glow_item_frame": {
         name: "Glow Item Frame",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/glow_item_frame.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/glow_item_frame.png"
     },
     "minecraft:item_frame": {
         name: "Item Frame",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/item_frame.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/item_frame.png"
     },
     "minecraft:jungle_boat": {
         name: "Jungle Boat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/jungle_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/jungle_boat.png"
     },
     "minecraft:jungle_chest_boat": {
         name: "Jungle Boat with Chest",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/jungle_chest_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/jungle_chest_boat.png"
     },
     "minecraft:kelp": {
         name: "Kelp",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/kelp.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/kelp.png"
     },
     "minecraft:lava_bucket": {
         name: "Lava Bucket",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/lava_bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/lava_bucket.png"
     },
     "minecraft:lead": {
         name: "Lead",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/lead.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/lead.png"
     },
     "minecraft:lingering_potion": {
         name: "Lingering Potion",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/lingering_potion.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/lingering_potion.png"
     },
     "minecraft:mangrove_boat": {
         name: "Mangrove Boat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/jungle_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/jungle_boat.png"
     },
     "minecraft:mangrove_chest_boat": {
         name: "Mangrove Boat with Chest",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mangrove_chest_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mangrove_chest_boat.png"
     },
     "minecraft:melon_seeds": {
         name: "Melon Seeds",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/melon_seeds.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/melon_seeds.png"
     },
     "minecraft:minecart": {
         name: "Minecart",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/minecart.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/minecart.png"
     },
     "minecraft:chest_minecart": {
         name: "Minecart with Chest",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/chest_minecart.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/chest_minecart.png"
     },
     "minecraft:command_block_minecart": {
         name: "Minecart with Command Block",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/command_block_minecart.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/command_block_minecart.png"
     },
     "minecraft:hopper_minecart": {
         name: "Minecart with Hopper",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/hopper_minecart.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/hopper_minecart.png"
     },
     "minecraft:tnt_minecart": {
         name: "Minecart with TNT",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/tnt_minecart.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/tnt_minecart.png"
     },
     "minecraft:nether_wart": {
         name: "Nether Wart",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/nether_wart.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/nether_wart.png"
     },
     "minecraft:oak_boat": {
         name: "Oak Boat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oak_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oak_boat.png"
     },
     "minecraft:oak_chest_boat": {
         name: "Oak Boat with Chest",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oak_chest_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oak_chest_boat.png"
     },
     "minecraft:painting": {
         name: "Painting",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/painting.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/painting.png"
     },
     "minecraft:pale_oak_boat": {
         name: "Pale Oak Boat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pale_oak_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pale_oak_boat.png"
     },
     "minecraft:pale_oak_chest_boat": {
         name: "Pale Oak Boat with Chest",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pale_oak_chest_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pale_oak_chest_boat.png"
     },
     "minecraft:pitcher_pod": {
         name: "Pitcher Pod",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pitcher_pod.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pitcher_pod.png"
     },
     "minecraft:potato": {
         name: "Potato",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/potato.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/potato.png"
     },
     "minecraft:powder_snow_bucket": {
         name: "Powder Snow Bucket",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/powder_snow_bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/powder_snow_bucket.png"
     },
     "minecraft:pumpkin_seeds": {
         name: "Pumpkin Seeds",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pumpkin_seeds.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pumpkin_seeds.png"
     },
     "minecraft:redstone": {
         name: "Redstone Dust",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/redstone.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/redstone.png"
     },
     "minecraft:snowball": {
         name: "Snowball",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/snowball.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/snowball.png"
     },
     "minecraft:splash_potion": {
         name: "Splash Potion",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/splash_potion.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/splash_potion.png"
     },
     "minecraft:spruce_boat": {
         name: "Spruce Boat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/spruce_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/spruce_boat.png"
     },
     "minecraft:spruce_chest_boat": {
         name: "Spruce Boat with Chest",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/spruce_chest_boat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/spruce_chest_boat.png"
     },
     "minecraft:string": {
         name: "String",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/string.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/string.png"
     },
     "minecraft:sweet_berries": {
         name: "Sweet Berries",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/sweet_berries.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/sweet_berries.png"
     },
     "minecraft:torchflower_seeds": {
         name: "Torchflower Seeds",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/torchflower_seeds.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/torchflower_seeds.png"
     },
     "minecraft:trident": {
         name: "Trident",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/trident.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/trident.png"
     },
     "minecraft:water_bucket": {
         name: "Water Bucket",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/water_bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/water_bucket.png"
     },
     "minecraft:wheat_seeds": {
         name: "Wheat Seeds",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wheat_seeds.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wheat_seeds.png"
     },
     "minecraft:wind_charge": {
         name: "Wind Charge",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wind_charge.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wind_charge.png"
     },
 
     "minecraft:amethyst_shard": {
         name: "Amethyst Shard",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/amethyst_shard.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/amethyst_shard.png"
     },
     "minecraft:apple": {
         name: "Apple",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/apple.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/apple.png"
     },
     "minecraft:armadillo_scute": {
         name: "Armadillo Scute",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/armadillo_scute.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/armadillo_scute.png"
     },
     "minecraft:arrow": {
         name: "Arrow",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/arrow.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/arrow.png"
     },
     "minecraft:baked_potato": {
         name: "Baked Potato",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/baked_potato.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/baked_potato.png"
     },
     "minecraft:beetroot": {
         name: "Beetroot",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/beetroot.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/beetroot.png"
     },
     "minecraft:beetroot_soup": {
         name: "Beetroot Soup",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/beetroot_soup.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/beetroot_soup.png"
     },
     "minecraft:black_bundle": {
         name: "Black Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/black_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/black_bundle.png"
     },
     "minecraft:black_dye": {
         name: "Black Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/black_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/black_dye.png"
     },
     "minecraft:black_harness": {
         name: "Black Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/black_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/black_harness.png"
     },
     "minecraft:blue_bundle": {
         name: "Blue Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/blue_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/blue_bundle.png"
     },
     "minecraft:blue_dye": {
         name: "Blue Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/blue_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/blue_dye.png"
     },
     "minecraft:blue_harness": {
         name: "Blue Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/blue_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/blue_harness.png"
     },
     "minecraft:bone": {
         name: "Bone",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bone.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bone.png"
     },
     "minecraft:bone_meal": {
         name: "Bone Meal",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bone_meal.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bone_meal.png"
     },
     "minecraft:book": {
         name: "Book",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/book.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/book.png"
     },
     "minecraft:book_and_quill": {
         name: "Book and Quill",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/writable_book.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/writable_book.png"
     },
     "minecraft:bowl": {
         name: "Bowl",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bowl.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bowl.png"
     },
     "minecraft:bread": {
         name: "Bread",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bread.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bread.png"
     },
     "minecraft:brown_bundle": {
         name: "Brown Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/brown_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/brown_bundle.png"
     },
     "minecraft:brown_dye": {
         name: "Brown Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/brown_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/brown_dye.png"
     },
     "minecraft:brown_harness": {
         name: "Brown Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/brown_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/brown_harness.png"
     },
     "minecraft:brush": {
         name: "Brush",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/brush.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/brush.png"
     },
     "minecraft:bundle": {
         name: "Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bundle.png"
     },
     "minecraft:carrot_on_a_stick": {
         name: "Carrot on a Stick",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/carrot_on_a_stick.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/carrot_on_a_stick.png"
     },
     "minecraft:chainmail_boots": {
         name: "Chainmail Boots",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/chainmail_boots.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/chainmail_boots.png"
     },
     "minecraft:chainmail_chestplate": {
         name: "Chainmail Chestplate",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/chainmail_chestplate.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/chainmail_chestplate.png"
     },
     "minecraft:chainmail_helmet": {
         name: "Chainmail Helmet",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/chainmail_helmet.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/chainmail_helmet.png"
     },
     "minecraft:chainmail_leggings": {
         name: "Chainmail Leggings",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/chainmail_leggings.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/chainmail_leggings.png"
     },
     "minecraft:charcoal": {
         name: "Charcoal",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/charcoal.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/charcoal.png"
     },
     "minecraft:chorus_fruit": {
         name: "Chorus Fruit",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/chorus_fruit.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/chorus_fruit.png"
     },
     "minecraft:coal": {
         name: "Coal",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/coal.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/coal.png"
     },
     "minecraft:compass": {
         name: "Compass",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/compass_16.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/compass_16.png"
     },
     "minecraft:cooked_chicken": {
         name: "Cooked Chicken",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cooked_chicken.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cooked_chicken.png"
     },
     "minecraft:cooked_cod": {
         name: "Cooked Cod",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cooked_cod.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cooked_cod.png"
     },
     "minecraft:cooked_mutton": {
         name: "Cooked Mutton",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cooked_mutton.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cooked_mutton.png"
     },
     "minecraft:cooked_porkchop": {
         name: "Cooked Porkchop",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cooked_porkchop.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cooked_porkchop.png"
     },
     "minecraft:cooked_rabbit": {
         name: "Cooked Rabbit",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cooked_rabbit.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cooked_rabbit.png"
     },
     "minecraft:cooked_salmon": {
         name: "Cooked Salmon",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cooked_salmon.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cooked_salmon.png"
     },
     "minecraft:cookie": {
         name: "Cookie",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cookie.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cookie.png"
     },
     "minecraft:copper_axe": {
         name: "Copper Axe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_axe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_axe.png"
     },
     "minecraft:copper_boots": {
         name: "Copper Boots",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_boots.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_boots.png"
     },
     "minecraft:copper_chestplate": {
         name: "Copper Chestplate",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_chestplate.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_chestplate.png"
     },
     "minecraft:copper_helmet": {
         name: "Copper Helmet",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_helmet.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_helmet.png"
     },
     "minecraft:copper_hoe": {
         name: "Copper Hoe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_hoe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_hoe.png"
     },
     "minecraft:copper_horse_armor": {
         name: "Copper Horse Armor",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_horse_armor.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_horse_armor.png"
     },
     "minecraft:copper_leggings": {
         name: "Copper Leggings",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_leggings.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_leggings.png"
     },
     "minecraft:copper_pickaxe": {
         name: "Copper Pickaxe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_pickaxe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_pickaxe.png"
     },
     "minecraft:copper_shovel": {
         name: "Copper Shovel",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_shovel.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_shovel.png"
     },
     "minecraft:copper_sword": {
         name: "Copper Sword",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_sword.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_sword.png"
     },
     "minecraft:cyan_bundle": {
         name: "Cyan Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cyan_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cyan_bundle.png"
     },
     "minecraft:cyan_dye": {
         name: "Cyan Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cyan_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cyan_dye.png"
     },
     "minecraft:cyan_harness": {
         name: "Cyan Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cyan_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cyan_harness.png"
     },
     "minecraft:diamond_axe": {
         name: "Diamond Axe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond_axe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_axe.png"
     },
     "minecraft:diamond_boots": {
         name: "Diamond Boots",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond_boots.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_boots.png"
     },
     "minecraft:diamond_chestplate": {
         name: "Diamond Chestplate",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond_chestplate.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_chestplate.png"
     },
     "minecraft:diamond_helmet": {
         name: "Diamond Helmet",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond_helmet.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_helmet.png"
     },
     "minecraft:diamond_hoe": {
         name: "Diamond Hoe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond_hoe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_hoe.png"
     },
     "minecraft:diamond_horse_armor": {
         name: "Diamond Horse Armor",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond_horse_armor.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_horse_armor.png"
     },
     "minecraft:diamond_leggings": {
         name: "Diamond Leggings",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond_leggings.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_leggings.png"
     },
     "minecraft:diamond_pickaxe": {
         name: "Diamond Pickaxe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond_pickaxe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_pickaxe.png"
     },
     "minecraft:diamond_shovel": {
         name: "Diamond Shovel",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond_shovel.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_shovel.png"
     },
     "minecraft:diamond_sword": {
         name: "Diamond Sword",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond_sword.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_sword.png"
     },
     "minecraft:dried_kelp": {
         name: "Dried Kelp",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/dried_kelp.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/dried_kelp.png"
     },
     "minecraft:elytra": {
         name: "Elytra",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/elytra.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/elytra.png"
     },
     "minecraft:enchanted_book": {
         name: "Enchanted Book",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/enchanted_book.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/enchanted_book.png"
     },
     "minecraft:enchanted_golden_apple": {
         name: "Enchanted Golden Apple",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_apple.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_apple.png"
     },
     "minecraft:glass_bottle": {
         name: "Glass Bottle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/glass_bottle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/glass_bottle.png"
     },
     "minecraft:glow_ink_sac": {
         name: "Glow Ink Sac",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/glow_ink_sac.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/glow_ink_sac.png"
     },
     "minecraft:goat_horn": {
         name: "Goat Horn",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/goat_horn.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/goat_horn.png"
     },
     "minecraft:gold_ingot": {
         name: "Gold Ingot",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/gold_ingot.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/gold_ingot.png"
     },
     "minecraft:golden_apple": {
         name: "Golden Apple",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_apple.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_apple.png"
     },
     "minecraft:golden_carrot": {
         name: "Golden Carrot",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_carrot.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_carrot.png"
     },
     "minecraft:golden_axe": {
         name: "Golden Axe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_axe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_axe.png"
     },
     "minecraft:golden_boots": {
         name: "Golden Boots",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_boots.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_boots.png"
     },
     "minecraft:golden_chestplate": {
         name: "Golden Chestplate",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_chestplate.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_chestplate.png"
     },
     "minecraft:golden_helmet": {
         name: "Golden Helmet",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_helmet.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_helmet.png"
     },
     "minecraft:golden_hoe": {
         name: "Golden Hoe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_hoe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_hoe.png"
     },
     "minecraft:golden_horse_armor": {
         name: "Golden Horse Armor",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_horse_armor.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_horse_armor.png"
     },
     "minecraft:golden_leggings": {
         name: "Golden Leggings",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_leggings.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_leggings.png"
     },
     "minecraft:golden_pickaxe": {
         name: "Golden Pickaxe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_pickaxe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_pickaxe.png"
     },
     "minecraft:golden_shovel": {
         name: "Golden Shovel",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_shovel.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_shovel.png"
     },
     "minecraft:golden_sword": {
         name: "Golden Sword",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/golden_sword.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_sword.png"
     },
     "minecraft:gray_bundle": {
         name: "Gray Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/gray_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/gray_bundle.png"
     },
     "minecraft:gray_dye": {
         name: "Gray Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/gray_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/gray_dye.png"
     },
     "minecraft:gray_harness": {
         name: "Gray Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/gray_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/gray_harness.png"
     },
     "minecraft:green_bundle": {
         name: "Green Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/green_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/green_bundle.png"
     },
     "minecraft:green_dye": {
         name: "Green Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/green_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/green_dye.png"
     },
     "minecraft:green_harness": {
         name: "Green Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/green_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/green_harness.png"
     },
     "minecraft:honeycomb": {
         name: "Honeycomb",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/honeycomb.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/honeycomb.png"
     },
     "minecraft:honey_bottle": {
         name: "Honey Bottle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/honey_bottle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/honey_bottle.png"
     },
     "minecraft:ink_sac": {
         name: "Ink Sac",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ink_sac.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ink_sac.png"
     },
     "minecraft:iron_axe": {
         name: "Iron Axe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_axe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_axe.png"
     },
     "minecraft:iron_boots": {
         name: "Iron Boots",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_boots.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_boots.png"
     },
     "minecraft:iron_chestplate": {
         name: "Iron Chestplate",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_chestplate.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_chestplate.png"
     },
     "minecraft:iron_helmet": {
         name: "Iron Helmet",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_helmet.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_helmet.png"
     },
     "minecraft:iron_hoe": {
         name: "Iron Hoe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_hoe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_hoe.png"
     },
     "minecraft:iron_horse_armor": {
         name: "Iron Horse Armor",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_horse_armor.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_horse_armor.png"
     },
     "minecraft:iron_leggings": {
         name: "Iron Leggings",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_leggings.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_leggings.png"
     },
     "minecraft:iron_pickaxe": {
         name: "Iron Pickaxe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_pickaxe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_pickaxe.png"
     },
     "minecraft:iron_shovel": {
         name: "Iron Shovel",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_shovel.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_shovel.png"
     },
     "minecraft:iron_sword": {
         name: "Iron Sword",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_sword.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_sword.png"
     },
     "minecraft:iron_ingot": {
         name: "Iron Ingot",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_ingot.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_ingot.png"
     },
     "minecraft:lapis_lazuli": {
         name: "Lapis Lazuli",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/lapis_lazuli.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/lapis_lazuli.png"
     },
     "minecraft:leather_boots": {
         name: "Leather Boots",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/leather_boots.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/leather_boots.png"
     },
     "minecraft:leather_cap": {
         name: "Leather Cap",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/leather_helmet.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/leather_helmet.png"
     },
     "minecraft:leather_horse_armor": {
         name: "Leather Horse Armor",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/leather_horse_armor.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/leather_horse_armor.png"
     },
     "minecraft:leather_pants": {
         name: "Leather Pants",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/leather_leggings.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/leather_leggings.png"
     },
     "minecraft:leather_tunic": {
         name: "Leather Tunic",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/leather_chestplate.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/leather_chestplate.png"
     },
     "minecraft:light_blue_bundle": {
         name: "Light Blue Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/light_blue_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/light_blue_bundle.png"
     },
     "minecraft:light_blue_dye": {
         name: "Light Blue Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/light_blue_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/light_blue_dye.png"
     },
     "minecraft:light_blue_harness": {
         name: "Light Blue Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/light_blue_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/light_blue_harness.png"
     },
     "minecraft:light_gray_bundle": {
         name: "Light Gray Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/light_gray_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/light_gray_bundle.png"
     },
     "minecraft:light_gray_dye": {
         name: "Light Gray Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/light_gray_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/light_gray_dye.png"
     },
     "minecraft:light_gray_harness": {
         name: "Light Gray Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/light_gray_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/light_gray_harness.png"
     },
     "minecraft:lime_bundle": {
         name: "Lime Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/lime_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/lime_bundle.png"
     },
     "minecraft:lime_dye": {
         name: "Lime Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/lime_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/lime_dye.png"
     },
     "minecraft:lime_harness": {
         name: "Lime Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/lime_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/lime_harness.png"
     },
     "minecraft:mace": {
         name: "Mace",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mace.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mace.png"
     },
     "minecraft:magenta_bundle": {
         name: "Magenta Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/magenta_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/magenta_bundle.png"
     },
     "minecraft:magenta_dye": {
         name: "Magenta Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/magenta_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/magenta_dye.png"
     },
     "minecraft:magenta_harness": {
         name: "Magenta Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/magenta_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/magenta_harness.png"
     },
     "minecraft:melon_slice": {
         name: "Melon Slice",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/melon_slice.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/melon_slice.png"
     },
     "minecraft:milk_bucket": {
         name: "Milk Bucket",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/milk_bucket.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/milk_bucket.png"
     },
     "minecraft:mushroom_stew": {
         name: "Mushroom Stew",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mushroom_stew.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mushroom_stew.png"
     },
     "minecraft:music_disc_5": {
         name: "Music Disc (5)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_5.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_5.png"
     },
     "minecraft:music_disc_11": {
         name: "Music Disc (11)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_11.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_11.png"
     },
     "minecraft:music_disc_13": {
         name: "Music Disc (13)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_13.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_13.png"
     },
     "minecraft:music_disc_blocks": {
         name: "Music Disc (blocks)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_blocks.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_blocks.png"
     },
     "minecraft:music_disc_cat": {
         name: "Music Disc (cat)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_cat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_cat.png"
     },
     "minecraft:music_disc_chirp": {
         name: "Music Disc (chirp)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_chirp.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_chirp.png"
     },
     "minecraft:music_disc_creator": {
         name: "Music Disc (Creator)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_creator.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_creator.png"
     },
     "minecraft:music_disc_creator_music_box": {
         name: "Music Disc (Creator (Music Box))",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_creator_music_box.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_creator_music_box.png"
     },
     "minecraft:music_disc_far": {
         name: "Music Disc (far)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_far.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_far.png"
     },
     "minecraft:music_disc_lava_chicken": {
         name: "Music Disc (Lava Chicken)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_lava_chicken.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_lava_chicken.png"
     },
     "minecraft:music_disc_mall": {
         name: "Music Disc (mall)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_mall.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_mall.png"
     },
     "minecraft:music_disc_mellohi": {
         name: "Music Disc (mellohi)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_mellohi.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_mellohi.png"
     },
     "minecraft:music_disc_otherside": {
         name: "Music Disc (otherside)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_otherside.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_otherside.png"
     },
     "minecraft:music_disc_pigstep": {
         name: "Music Disc (Pigstep)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_pigstep.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_pigstep.png"
     },
     "minecraft:music_disc_precipice": {
         name: "Music Disc (Precipice)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_precipice.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_precipice.png"
     },
     "minecraft:music_disc_relic": {
         name: "Music Disc (Relic)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_relic.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_relic.png"
     },
     "minecraft:music_disc_stal": {
         name: "Music Disc (stal)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_stal.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_stal.png"
     },
     "minecraft:music_disc_strad": {
         name: "Music Disc (strad)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_strad.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_strad.png"
     },
     "minecraft:music_disc_tears": {
         name: "Music Disc (Tears)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_tears.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_tears.png"
     },
     "minecraft:music_disc_wait": {
         name: "Music Disc (wait)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_wait.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_wait.png"
     },
     "minecraft:music_disc_ward": {
         name: "Music Disc (ward)",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/music_disc_ward.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/music_disc_ward.png"
     },
     "minecraft:name_tag": {
         name: "Name Tag",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/name_tag.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/name_tag.png"
     },
     "minecraft:netherite_axe": {
         name: "Netherite Axe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_axe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_axe.png"
     },
     "minecraft:netherite_boots": {
         name: "Netherite Boots",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_boots.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_boots.png"
     },
     "minecraft:netherite_chestplate": {
         name: "Netherite Chestplate",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_chestplate.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_chestplate.png"
     },
     "minecraft:netherite_helmet": {
         name: "Netherite Helmet",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_helmet.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_helmet.png"
     },
     "minecraft:netherite_hoe": {
         name: "Netherite Hoe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_hoe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_hoe.png"
     },
-    /*"minecraft:netherite_horse_armor": {
+    "minecraft:netherite_horse_armor": {
         name: "Netherite Horse Armor",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_horse_armor.png"
-    },*/
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_horse_armor.png"
+    },
+    "minecraft:copper_nautilus_armor": {
+        name: "Copper Nautilus Armor",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_nautilus_armor.png"
+    },
+    "minecraft:iron_nautilus_armor": {
+        name: "Iron Nautilus Armor",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_nautilus_armor.png"
+    },
+    "minecraft:golden_nautilus_armor": {
+        name: "Golden Nautilus Armor",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_nautilus_armor.png"
+    },
+    "minecraft:diamond_nautilus_armor": {
+        name: "Diamond Nautilus Armor",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_nautilus_armor.png"
+    },
+    "minecraft:netherite_nautilus_armor": {
+        name: "Netherite Nautilus Armor",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_nautilus_armor.png"
+    },
     "minecraft:netherite_leggings": {
         name: "Netherite Leggings",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_leggings.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_leggings.png"
     },
     "minecraft:netherite_pickaxe": {
         name: "Netherite Pickaxe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_pickaxe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_pickaxe.png"
     },
     "minecraft:netherite_shovel": {
         name: "Netherite Shovel",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_shovel.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_shovel.png"
     },
     "minecraft:netherite_sword": {
         name: "Netherite Sword",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_sword.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_sword.png"
     },
     "minecraft:ominous_bottle": {
         name: "Ominous Bottle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ominous_bottle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ominous_bottle.png"
     },
     "minecraft:ominous_trial_key": {
         name: "Ominous Trial Key",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ominous_trial_key.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ominous_trial_key.png"
     },
     "minecraft:orange_bundle": {
         name: "Orange Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/orange_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/orange_bundle.png"
     },
     "minecraft:orange_dye": {
         name: "Orange Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/orange_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/orange_dye.png"
     },
     "minecraft:orange_harness": {
         name: "Orange Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/orange_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/orange_harness.png"
     },
     "minecraft:pink_bundle": {
         name: "Pink Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pink_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pink_bundle.png"
     },
     "minecraft:pink_dye": {
         name: "Pink Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pink_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pink_dye.png"
     },
     "minecraft:pink_harness": {
         name: "Pink Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pink_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pink_harness.png"
     },
     "minecraft:poisonous_potato": {
         name: "Poisonous Potato",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/poisonous_potato.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/poisonous_potato.png"
     },
     "minecraft:potion": {
         name: "Potion",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/potion.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/potion.png"
     },
     "minecraft:pufferfish": {
         name: "Pufferfish",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pufferfish.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pufferfish.png"
     },
     "minecraft:pumpkin_pie": {
         name: "Pumpkin Pie",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pumpkin_pie.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pumpkin_pie.png"
     },
     "minecraft:purple_bundle": {
         name: "Purple Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/purple_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/purple_bundle.png"
     },
     "minecraft:purple_dye": {
         name: "Purple Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/purple_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/purple_dye.png"
     },
     "minecraft:purple_harness": {
         name: "Purple Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/purple_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/purple_harness.png"
     },
     "minecraft:rabbit_stew": {
         name: "Rabbit Stew",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/rabbit_stew.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/rabbit_stew.png"
     },
     "minecraft:raw_beef": {
         name: "Raw Beef",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/beef.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/beef.png"
     },
     "minecraft:raw_chicken": {
         name: "Raw Chicken",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/chicken.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/chicken.png"
     },
     "minecraft:cod": {
         name: "Raw Cod",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cod.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cod.png"
     },
     "minecraft:raw_mutton": {
         name: "Raw Mutton",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mutton.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mutton.png"
     },
     "minecraft:raw_porkchop": {
         name: "Raw Porkchop",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/porkchop.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/porkchop.png"
     },
     "minecraft:raw_rabbit": {
         name: "Raw Rabbit",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/rabbit.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/rabbit.png"
     },
     "minecraft:salmon": {
         name: "Raw Salmon",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/salmon.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/salmon.png"
     },
     "minecraft:red_bundle": {
         name: "Red Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/red_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/red_bundle.png"
     },
     "minecraft:red_dye": {
         name: "Red Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/red_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/red_dye.png"
     },
     "minecraft:red_harness": {
         name: "Red Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/red_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/red_harness.png"
     },
     "minecraft:rotten_flesh": {
         name: "Rotten Flesh",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/rotten_flesh.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/rotten_flesh.png"
     },
     "minecraft:saddle": {
         name: "Saddle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/saddle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/saddle.png"
     },
     "minecraft:shears": {
         name: "Shears",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/shears.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/shears.png"
     },
     "minecraft:shield": {
         name: "Shield",
@@ -1046,47 +1068,47 @@ const itemDefinitions = {
     },
     "minecraft:slime_ball": {
         name: "Slimeball",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/slime_ball.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/slime_ball.png"
     },
     "minecraft:spider_eye": {
         name: "Spider Eye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/spider_eye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/spider_eye.png"
     },
     "minecraft:spyglass": {
         name: "Spyglass",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/spyglass.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/spyglass.png"
     },
     "minecraft:cooked_beef": {
         name: "Steak",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cooked_beef.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cooked_beef.png"
     },
     "minecraft:stone_axe": {
         name: "Stone Axe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/stone_axe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/stone_axe.png"
     },
     "minecraft:stone_hoe": {
         name: "Stone Hoe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/stone_hoe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/stone_hoe.png"
     },
     "minecraft:stone_pickaxe": {
         name: "Stone Pickaxe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/stone_pickaxe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/stone_pickaxe.png"
     },
     "minecraft:stone_shovel": {
         name: "Stone Shovel",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/stone_shovel.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/stone_shovel.png"
     },
     "minecraft:stone_sword": {
         name: "Stone Sword",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/stone_sword.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/stone_sword.png"
     },
     "minecraft:sugar": {
         name: "Sugar",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/sugar.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/sugar.png"
     },
     "minecraft:suspicious_stew": {
         name: "Suspicious Stew",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/suspicious_stew.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/suspicious_stew.png"
     },
     "minecraft:tipped_arrow": {
         name: "Tipped Arrow",
@@ -1094,19 +1116,19 @@ const itemDefinitions = {
     },
     "minecraft:totem_of_undying": {
         name: "Totem of Undying",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/totem_of_undying.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/totem_of_undying.png"
     },
     "minecraft:trial_key": {
         name: "Trial Key",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/trial_key.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/trial_key.png"
     },
     "minecraft:tropical_fish": {
         name: "Tropical Fish",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/tropical_fish.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/tropical_fish.png"
     },
     "minecraft:turtle_shell": {
         name: "Turtle Shell",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/turtle_helmet.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/turtle_helmet.png"
     },
     "minecraft:water_bottle": {
         name: "Water Bottle",
@@ -1114,816 +1136,864 @@ const itemDefinitions = {
     },
     "minecraft:warped_fungus_on_a_stick": {
         name: "Warped Fungus on a Stick",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/warped_fungus_on_a_stick.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/warped_fungus_on_a_stick.png"
     },
     "minecraft:wheat": {
         name: "Wheat",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wheat.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wheat.png"
     },
     "minecraft:white_bundle": {
         name: "White Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/white_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/white_bundle.png"
     },
     "minecraft:white_dye": {
         name: "White Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/white_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/white_dye.png"
     },
     "minecraft:white_harness": {
         name: "White Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/white_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/white_harness.png"
     },
     "minecraft:wolf_armor": {
         name: "Wolf Armor",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wolf_armor.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wolf_armor.png"
     },
     "minecraft:wooden_axe": {
         name: "Wooden Axe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wooden_axe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wooden_axe.png"
     },
     "minecraft:wooden_hoe": {
         name: "Wooden Hoe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wooden_hoe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wooden_hoe.png"
     },
     "minecraft:wooden_pickaxe": {
         name: "Wooden Pickaxe",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wooden_pickaxe.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wooden_pickaxe.png"
     },
     "minecraft:wooden_shovel": {
         name: "Wooden Shovel",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wooden_shovel.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wooden_shovel.png"
     },
     "minecraft:wooden_sword": {
         name: "Wooden Sword",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wooden_sword.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wooden_sword.png"
     },
     "minecraft:yellow_bundle": {
         name: "Yellow Bundle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/yellow_bundle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/yellow_bundle.png"
     },
     "minecraft:yellow_dye": {
         name: "Yellow Dye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/yellow_dye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/yellow_dye.png"
     },
     "minecraft:yellow_harness": {
         name: "Yellow Harness",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/yellow_harness.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/yellow_harness.png"
     },
 
     "minecraft:angler_pottery_sherd": {
         name: "Angler Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/angler_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/angler_pottery_sherd.png"
     },
     "minecraft:archer_pottery_sherd": {
         name: "Archer Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/archer_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/archer_pottery_sherd.png"
     },
     "minecraft:arms_up_pottery_sherd": {
         name: "Arms Up Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/arms_up_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/arms_up_pottery_sherd.png"
     },
     "minecraft:blade_pottery_sherd": {
         name: "Blade Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/blade_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/blade_pottery_sherd.png"
     },
     "minecraft:blaze_powder": {
         name: "Blaze Powder",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/blaze_powder.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/blaze_powder.png"
     },
     "minecraft:blaze_rod": {
         name: "Blaze Rod",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/blaze_rod.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/blaze_rod.png"
     },
     "minecraft:bolt_armor_trim_smithing_template": {
         name: "Bolt Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bolt_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bolt_armor_trim_smithing_template.png"
     },
     "minecraft:bordure_indented_banner_pattern": {
         name: "Bordure Indented Banner Pattern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bordure_indented_banner_pattern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bordure_indented_banner_pattern.png"
     },
     "minecraft:breeze_rod": {
         name: "Breeze Rod",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/breeze_rod.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/breeze_rod.png"
     },
     "minecraft:brewer_pottery_sherd": {
         name: "Brewer Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/brewer_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/brewer_pottery_sherd.png"
     },
     "minecraft:brick": {
         name: "Brick",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/brick.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/brick.png"
     },
     "minecraft:burn_pottery_sherd": {
         name: "Burn Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/burn_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/burn_pottery_sherd.png"
     },
     "minecraft:clay_ball": {
         name: "Clay Ball",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/clay_ball.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/clay_ball.png"
     },
     "minecraft:clock": {
         name: "Clock",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/clock_16.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/clock_16.png"
     },
     "minecraft:coast_armor_trim_smithing_template": {
         name: "Coast Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/coast_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/coast_armor_trim_smithing_template.png"
     },
     "minecraft:copper_ingot": {
         name: "Copper Ingot",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_ingot.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_ingot.png"
     },
     "minecraft:copper_nugget": {
         name: "Copper Nugget",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_nugget.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_nugget.png"
     },
     "minecraft:creeper_charge_banner_pattern": {
         name: "Creeper Charge Banner Pattern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/creeper_banner_pattern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/creeper_banner_pattern.png"
     },
     "minecraft:danger_pottery_sherd": {
         name: "Danger Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/danger_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/danger_pottery_sherd.png"
     },
     "minecraft:diamond": {
         name: "Diamond",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/diamond.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond.png"
     },
     "minecraft:disc_fragment_5": {
         name: "Disc Fragment",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/disc_fragment_5.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/disc_fragment_5.png"
     },
     "minecraft:dragon_breath": {
         name: "Dragon's Breath",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/dragon_breath.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/dragon_breath.png"
     },
     "minecraft:dune_armor_trim_smithing_template": {
         name: "Dune Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/dune_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/dune_armor_trim_smithing_template.png"
     },
     "minecraft:echo_shard": {
         name: "Echo Shard",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/echo_shard.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/echo_shard.png"
     },
     "minecraft:emerald": {
         name: "Emerald",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/emerald.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/emerald.png"
     },
     "minecraft:explorer_pottery_sherd": {
         name: "Explorer Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/explorer_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/explorer_pottery_sherd.png"
     },
     "minecraft:eye_armor_trim_smithing_template": {
         name: "Eye Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/eye_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/eye_armor_trim_smithing_template.png"
     },
     "minecraft:feather": {
         name: "Feather",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/feather.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/feather.png"
     },
     "minecraft:fermented_spider_eye": {
         name: "Fermented Spider Eye",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/fermented_spider_eye.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/fermented_spider_eye.png"
     },
     "minecraft:field_masoned_banner_pattern": {
         name: "Field Masoned Banner Pattern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/field_masoned_banner_pattern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/field_masoned_banner_pattern.png"
     },
     "minecraft:firework_star": {
         name: "Firework Star",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/firework_star.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/firework_star.png"
     },
     "minecraft:flint": {
         name: "Flint",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/flint.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/flint.png"
     },
     "minecraft:flow_armor_trim_smithing_template": {
         name: "Flow Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/flow_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/flow_armor_trim_smithing_template.png"
     },
     "minecraft:flow_banner_pattern": {
         name: "Flow Banner Pattern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/flow_banner_pattern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/flow_banner_pattern.png"
     },
     "minecraft:flow_pottery_sherd": {
         name: "Flow Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/flow_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/flow_pottery_sherd.png"
     },
     "minecraft:flower_charge_banner_pattern": {
         name: "Flower Charge Banner Pattern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/flower_banner_pattern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/flower_banner_pattern.png"
     },
     "minecraft:friend_pottery_sherd": {
         name: "Friend Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/friend_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/friend_pottery_sherd.png"
     },
     "minecraft:ghast_tear": {
         name: "Ghast Tear",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ghast_tear.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ghast_tear.png"
     },
     "minecraft:glistering_melon_slice": {
         name: "Glistering Melon Slice",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/glistering_melon_slice.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/glistering_melon_slice.png"
     },
     "minecraft:globe_banner_pattern": {
         name: "Globe Banner Pattern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/globe_banner_pattern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/globe_banner_pattern.png"
     },
     "minecraft:glowstone_dust": {
         name: "Glowstone Dust",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/glowstone_dust.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/glowstone_dust.png"
     },
     "minecraft:gold_nugget": {
         name: "Gold Nugget",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/gold_nugget.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/gold_nugget.png"
     },
     "minecraft:gunpowder": {
         name: "Gunpowder",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/gunpowder.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/gunpowder.png"
     },
     "minecraft:guster_banner_pattern": {
         name: "Guster Banner Pattern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/guster_banner_pattern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/guster_banner_pattern.png"
     },
     "minecraft:guster_pottery_sherd": {
         name: "Guster Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/guster_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/guster_pottery_sherd.png"
     },
     "minecraft:heart_of_the_sea": {
         name: "Heart of the Sea",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/heart_of_the_sea.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/heart_of_the_sea.png"
     },
     "minecraft:heart_pottery_sherd": {
         name: "Heart Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/heart_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/heart_pottery_sherd.png"
     },
     "minecraft:heartbreak_pottery_sherd": {
         name: "Heartbreak Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/heartbreak_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/heartbreak_pottery_sherd.png"
     },
     "minecraft:host_armor_trim_smithing_template": {
         name: "Host Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/host_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/host_armor_trim_smithing_template.png"
     },
     "minecraft:howl_pottery_sherd": {
         name: "Howl Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/howl_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/howl_pottery_sherd.png"
     },
     "minecraft:iron_nugget": {
         name: "Iron Nugget",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_nugget.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_nugget.png"
     },
     "minecraft:leather": {
         name: "Leather",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/leather.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/leather.png"
     },
     "minecraft:magma_cream": {
         name: "Magma Cream",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/magma_cream.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/magma_cream.png"
     },
     "minecraft:miner_pottery_sherd": {
         name: "Miner Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/miner_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/miner_pottery_sherd.png"
     },
     "minecraft:mourner_pottery_sherd": {
         name: "Mourner Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mourner_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mourner_pottery_sherd.png"
     },
     "minecraft:nautilus_shell": {
         name: "Nautilus Shell",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/nautilus_shell.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/nautilus_shell.png"
     },
     "minecraft:nether_brick": {
         name: "Nether Brick",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/nether_brick.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/nether_brick.png"
     },
     "minecraft:nether_quartz": {
         name: "Nether Quartz",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/quartz.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/quartz.png"
     },
     "minecraft:netherite_ingot": {
         name: "Netherite Ingot",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_ingot.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_ingot.png"
     },
     "minecraft:netherite_scrap": {
         name: "Netherite Scrap",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_scrap.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_scrap.png"
     },
     "minecraft:netherite_upgrade_smithing_template": {
         name: "Netherite Upgrade",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/netherite_upgrade_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_upgrade_smithing_template.png"
     },
     "minecraft:paper": {
         name: "Paper",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/paper.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/paper.png"
     },
     "minecraft:phantom_membrane": {
         name: "Phantom Membrane",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/phantom_membrane.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/phantom_membrane.png"
     },
     "minecraft:plenty_pottery_sherd": {
         name: "Plenty Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/plenty_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/plenty_pottery_sherd.png"
     },
     "minecraft:popped_chorus_fruit": {
         name: "Popped Chorus Fruit",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/popped_chorus_fruit.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/popped_chorus_fruit.png"
     },
     "minecraft:prismarine_crystals": {
         name: "Prismarine Crystals",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/prismarine_crystals.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/prismarine_crystals.png"
     },
     "minecraft:prismarine_shard": {
         name: "Prismarine Shard",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/prismarine_shard.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/prismarine_shard.png"
     },
     "minecraft:prize_pottery_sherd": {
         name: "Prize Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/prize_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/prize_pottery_sherd.png"
     },
     "minecraft:rabbit_hide": {
         name: "Rabbit Hide",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/rabbit_hide.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/rabbit_hide.png"
     },
     "minecraft:rabbit_foot": {
         name: "Rabbit's Foot",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/rabbit_foot.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/rabbit_foot.png"
     },
     "minecraft:raiser_armor_trim_smithing_template": {
         name: "Raiser Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/raiser_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/raiser_armor_trim_smithing_template.png"
     },
     "minecraft:raw_copper": {
         name: "Raw Copper",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/raw_copper.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/raw_copper.png"
     },
     "minecraft:raw_gold": {
         name: "Raw Gold",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/raw_gold.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/raw_gold.png"
     },
     "minecraft:raw_iron": {
         name: "Raw Iron",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/raw_iron.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/raw_iron.png"
     },
     "minecraft:recovery_compass": {
         name: "Recovery Compass",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/recovery_compass_16.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/recovery_compass_16.png"
     },
     "minecraft:resin_brick": {
         name: "Resin Brick",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/resin_brick.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/resin_brick.png"
     },
     "minecraft:rib_armor_trim_smithing_template": {
         name: "Rib Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/rib_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/rib_armor_trim_smithing_template.png"
     },
     "minecraft:scrape_pottery_sherd": {
         name: "Scrape Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/scrape_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/scrape_pottery_sherd.png"
     },
     "minecraft:sentry_armor_trim_smithing_template": {
         name: "Sentry Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/sentry_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/sentry_armor_trim_smithing_template.png"
     },
     "minecraft:shaper_armor_trim_smithing_template": {
         name: "Shaper Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/shaper_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/shaper_armor_trim_smithing_template.png"
     },
     "minecraft:sheaf_pottery_sherd": {
         name: "Sheaf Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/sheaf_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/sheaf_pottery_sherd.png"
     },
     "minecraft:shelter_pottery_sherd": {
         name: "Shelter Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/shelter_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/shelter_pottery_sherd.png"
     },
     "minecraft:shulker_shell": {
         name: "Shulker Shell",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/shulker_shell.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/shulker_shell.png"
     },
     "minecraft:silence_armor_trim_smithing_template": {
         name: "Silence Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/silence_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/silence_armor_trim_smithing_template.png"
     },
     "minecraft:skull_charge_banner_pattern": {
         name: "Skull Charge Banner Pattern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/skull_banner_pattern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/skull_banner_pattern.png"
     },
     "minecraft:skull_pottery_sherd": {
         name: "Skull Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/skull_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/skull_pottery_sherd.png"
     },
     "minecraft:snort_pottery_sherd": {
         name: "Snort Pottery Sherd",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/snort_pottery_sherd.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/snort_pottery_sherd.png"
     },
     "minecraft:snout_armor_trim_smithing_template": {
         name: "Snout Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/snout_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/snout_armor_trim_smithing_template.png"
     },
     "minecraft:snout_banner_pattern": {
         name: "Snout Banner Pattern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/piglin_banner_pattern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/piglin_banner_pattern.png"
     },
     "minecraft:spire_armor_trim_smithing_template": {
         name: "Spire Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/spire_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/spire_armor_trim_smithing_template.png"
     },
     "minecraft:stick": {
         name: "Stick",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/stick.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/stick.png"
     },
     "minecraft:thing_banner_pattern": {
         name: "Thing Banner Pattern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mojang_banner_pattern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mojang_banner_pattern.png"
     },
     "minecraft:tide_armor_trim_smithing_template": {
         name: "Tide Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/tide_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/tide_armor_trim_smithing_template.png"
     },
     "minecraft:turtle_scute": {
         name: "Turtle Scute",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/turtle_scute.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/turtle_scute.png"
     },
     "minecraft:vex_armor_trim_smithing_template": {
         name: "Vex Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/vex_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/vex_armor_trim_smithing_template.png"
     },
     "minecraft:ward_armor_trim_smithing_template": {
         name: "Ward Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ward_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ward_armor_trim_smithing_template.png"
     },
     "minecraft:wayfinder_armor_trim_smithing_template": {
         name: "Wayfinder Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wayfinder_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wayfinder_armor_trim_smithing_template.png"
     },
     "minecraft:wild_armor_trim_smithing_template": {
         name: "Wild Armor Trim",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wild_armor_trim_smithing_template.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wild_armor_trim_smithing_template.png"
     },
 
     "minecraft:armadillo_spawn_egg": {
         name: "Armadillo Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/armadillo_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/armadillo_spawn_egg.png"
     },
     "minecraft:allay_spawn_egg": {
         name: "Allay Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/allay_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/allay_spawn_egg.png"
     },
     "minecraft:axolotl_spawn_egg": {
         name: "Axolotl Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/axolotl_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/axolotl_spawn_egg.png"
     },
     "minecraft:bat_spawn_egg": {
         name: "Bat Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bat_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bat_spawn_egg.png"
     },
     "minecraft:bee_spawn_egg": {
         name: "Bee Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bee_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bee_spawn_egg.png"
     },
     "minecraft:blaze_spawn_egg": {
         name: "Blaze Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/blaze_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/blaze_spawn_egg.png"
     },
     "minecraft:bogged_spawn_egg": {
         name: "Bogged Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bogged_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bogged_spawn_egg.png"
     },
     "minecraft:breeze_spawn_egg": {
         name: "Breeze Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/breeze_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/breeze_spawn_egg.png"
     },
     "minecraft:camel_spawn_egg": {
         name: "Camel Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/camel_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/camel_spawn_egg.png"
     },
     "minecraft:cat_spawn_egg": {
         name: "Cat Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cat_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cat_spawn_egg.png"
     },
     "minecraft:cave_spider_spawn_egg": {
         name: "Cave Spider Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cave_spider_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cave_spider_spawn_egg.png"
     },
     "minecraft:chicken_spawn_egg": {
         name: "Chicken Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/chicken_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/chicken_spawn_egg.png"
     },
     "minecraft:cod_spawn_egg": {
         name: "Cod Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cod_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cod_spawn_egg.png"
     },
     "minecraft:copper_golem_spawn_egg": {
         name: "Copper Golem Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_golem_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_golem_spawn_egg.png"
     },
     "minecraft:cow_spawn_egg": {
         name: "Cow Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cow_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cow_spawn_egg.png"
     },
     "minecraft:creeper_spawn_egg": {
         name: "Creeper Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/creeper_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/creeper_spawn_egg.png"
     },
     "minecraft:creaking_spawn_egg": {
         name: "Creaking Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/creaking_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/creaking_spawn_egg.png"
     },
     "minecraft:dolphin_spawn_egg": {
         name: "Dolphin Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/dolphin_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/dolphin_spawn_egg.png"
     },
     "minecraft:donkey_spawn_egg": {
         name: "Donkey Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/donkey_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/donkey_spawn_egg.png"
     },
     "minecraft:drowned_spawn_egg": {
         name: "Drowned Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/drowned_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/drowned_spawn_egg.png"
     },
     "minecraft:elder_guardian_spawn_egg": {
         name: "Elder Guardian Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/elder_guardian_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/elder_guardian_spawn_egg.png"
     },
     "minecraft:ender_dragon_spawn_egg": {
         name: "Ender Dragon Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ender_dragon_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ender_dragon_spawn_egg.png"
     },
     "minecraft:enderman_spawn_egg": {
         name: "Enderman Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/enderman_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/enderman_spawn_egg.png"
     },
     "minecraft:endermite_spawn_egg": {
         name: "Endermite Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/endermite_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/endermite_spawn_egg.png"
     },
     "minecraft:evoker_spawn_egg": {
         name: "Evoker Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/evoker_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/evoker_spawn_egg.png"
     },
     "minecraft:fox_spawn_egg": {
         name: "Fox Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/fox_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/fox_spawn_egg.png"
     },
     "minecraft:frog_spawn_egg": {
         name: "Frog Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/frog_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/frog_spawn_egg.png"
     },
     "minecraft:ghast_spawn_egg": {
         name: "Ghast Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ghast_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ghast_spawn_egg.png"
     },
     "minecraft:glow_squid_spawn_egg": {
         name: "Glow Squid Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/glow_squid_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/glow_squid_spawn_egg.png"
     },
     "minecraft:goat_spawn_egg": {
         name: "Goat Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/goat_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/goat_spawn_egg.png"
     },
     "minecraft:guardian_spawn_egg": {
         name: "Guardian Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/guardian_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/guardian_spawn_egg.png"
     },
     "minecraft:happy_ghast_spawn_egg": {
         name: "Happy Ghast Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/happy_ghast_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/happy_ghast_spawn_egg.png"
     },
     "minecraft:hoglin_spawn_egg": {
         name: "Hoglin Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/hoglin_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/hoglin_spawn_egg.png"
     },
     "minecraft:horse_spawn_egg": {
         name: "Horse Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/horse_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/horse_spawn_egg.png"
     },
     "minecraft:husk_spawn_egg": {
         name: "Husk Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/husk_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/husk_spawn_egg.png"
     },
     "minecraft:iron_golem_spawn_egg": {
         name: "Iron Golem Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_golem_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_golem_spawn_egg.png"
     },
     "minecraft:llama_spawn_egg": {
         name: "Llama Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/llama_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/llama_spawn_egg.png"
     },
     "minecraft:magma_cube_spawn_egg": {
         name: "Magma Cube Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/magma_cube_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/magma_cube_spawn_egg.png"
     },
     "minecraft:mooshroom_spawn_egg": {
         name: "Mooshroom Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mooshroom_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mooshroom_spawn_egg.png"
     },
     "minecraft:mule_spawn_egg": {
         name: "Mule Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mule_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mule_spawn_egg.png"
     },
     "minecraft:ocelot_spawn_egg": {
         name: "Ocelot Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ocelot_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ocelot_spawn_egg.png"
     },
     "minecraft:panda_spawn_egg": {
         name: "Panda Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/panda_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/panda_spawn_egg.png"
     },
     "minecraft:parrot_spawn_egg": {
         name: "Parrot Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/parrot_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/parrot_spawn_egg.png"
     },
     "minecraft:phantom_spawn_egg": {
         name: "Phantom Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/phantom_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/phantom_spawn_egg.png"
     },
     "minecraft:pig_spawn_egg": {
         name: "Pig Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pig_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pig_spawn_egg.png"
     },
     "minecraft:piglin_spawn_egg": {
         name: "Piglin Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/piglin_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/piglin_spawn_egg.png"
     },
     "minecraft:piglin_brute_spawn_egg": {
         name: "Piglin Brute Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/piglin_brute_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/piglin_brute_spawn_egg.png"
     },
     "minecraft:pillager_spawn_egg": {
         name: "Pillager Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pillager_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pillager_spawn_egg.png"
     },
     "minecraft:polar_bear_spawn_egg": {
         name: "Polar Bear Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/polar_bear_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/polar_bear_spawn_egg.png"
     },
     "minecraft:pufferfish_spawn_egg": {
         name: "Pufferfish Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pufferfish_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pufferfish_spawn_egg.png"
     },
     "minecraft:rabbit_spawn_egg": {
         name: "Rabbit Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/rabbit_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/rabbit_spawn_egg.png"
     },
     "minecraft:ravager_spawn_egg": {
         name: "Ravager Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/ravager_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/ravager_spawn_egg.png"
     },
     "minecraft:salmon_spawn_egg": {
         name: "Salmon Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/salmon_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/salmon_spawn_egg.png"
     },
     "minecraft:sheep_spawn_egg": {
         name: "Sheep Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/sheep_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/sheep_spawn_egg.png"
     },
     "minecraft:shulker_spawn_egg": {
         name: "Shulker Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/shulker_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/shulker_spawn_egg.png"
     },
     "minecraft:silverfish_spawn_egg": {
         name: "Silverfish Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/silverfish_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/silverfish_spawn_egg.png"
     },
     "minecraft:skeleton_horse_spawn_egg": {
         name: "Skeleton Horse Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/skeleton_horse_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/skeleton_horse_spawn_egg.png"
     },
     "minecraft:skeleton_spawn_egg": {
         name: "Skeleton Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/skeleton_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/skeleton_spawn_egg.png"
     },
     "minecraft:slime_spawn_egg": {
         name: "Slime Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/slime_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/slime_spawn_egg.png"
     },
     "minecraft:sniffer_spawn_egg": {
         name: "Sniffer Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/sniffer_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/sniffer_spawn_egg.png"
     },
     "minecraft:snow_golem_spawn_egg": {
         name: "Snow Golem Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/snow_golem_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/snow_golem_spawn_egg.png"
     },
     "minecraft:spider_spawn_egg": {
         name: "Spider Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/spider_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/spider_spawn_egg.png"
     },
     "minecraft:squid_spawn_egg": {
         name: "Squid Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/squid_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/squid_spawn_egg.png"
     },
     "minecraft:stray_spawn_egg": {
         name: "Stray Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/stray_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/stray_spawn_egg.png"
     },
     "minecraft:strider_spawn_egg": {
         name: "Strider Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/strider_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/strider_spawn_egg.png"
     },
     "minecraft:tadpole_spawn_egg": {
         name: "Tadpole Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/tadpole_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/tadpole_spawn_egg.png"
     },
     "minecraft:trader_llama_spawn_egg": {
         name: "Trader Llama Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/trader_llama_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/trader_llama_spawn_egg.png"
     },
     "minecraft:tropical_fish_spawn_egg": {
         name: "Tropical Fish Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/tropical_fish_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/tropical_fish_spawn_egg.png"
     },
     "minecraft:turtle_spawn_egg": {
         name: "Turtle Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/turtle_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/turtle_spawn_egg.png"
     },
     "minecraft:vex_spawn_egg": {
         name: "Vex Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/vex_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/vex_spawn_egg.png"
     },
     "minecraft:villager_spawn_egg": {
         name: "Vilager Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/villager_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/villager_spawn_egg.png"
     },
     "minecraft:vindicator_spawn_egg": {
         name: "Vindicator Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/vindicator_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/vindicator_spawn_egg.png"
     },
     "minecraft:wandering_trader_spawn_egg": {
         name: "Wandering Trader Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wandering_trader_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wandering_trader_spawn_egg.png"
     },
     "minecraft:warden_spawn_egg": {
         name: "Warden Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/warden_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/warden_spawn_egg.png"
     },
     "minecraft:witch_spawn_egg": {
         name: "Witch Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/witch_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/witch_spawn_egg.png"
     },
     "minecraft:wither_skeleton_spawn_egg": {
         name: "Wither Skeleton Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wither_skeleton_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wither_skeleton_spawn_egg.png"
     },
     "minecraft:wither_spawn_egg": {
         name: "Wither Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wither_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wither_spawn_egg.png"
     },
     "minecraft:wolf_spawn_egg": {
         name: "Wolf Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/wolf_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wolf_spawn_egg.png"
     },
     "minecraft:zoglin_spawn_egg": {
         name: "Zoglin Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/zoglin_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/zoglin_spawn_egg.png"
     },
     "minecraft:zombie_horse_spawn_egg": {
         name: "Zombie Horse Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/zombie_horse_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/zombie_horse_spawn_egg.png"
     },
     "minecraft:zombie_spawn_egg": {
         name: "Zombie Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/zombie_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/zombie_spawn_egg.png"
     },
     "minecraft:zombie_villager_spawn_egg": {
         name: "Zombie Villager Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/zombie_villager_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/zombie_villager_spawn_egg.png"
     },
     "minecraft:zombified_piglin_spawn_egg": {
         name: "Zombified Piglin Spawn Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/zombified_piglin_spawn_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/zombified_piglin_spawn_egg.png"
+    },
+    "minecraft:nautilus_spawn_egg": {
+        name: "Nautilus Spawn Egg",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/nautilus_spawn_egg.png"
+    },
+    "minecraft:zombie_nautilus_spawn_egg": {
+        name: "Zombie Nautilus Spawn Egg",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/zombie_nautilus_spawn_egg.png"
+    },
+    "minecraft:parched_spawn_egg": {
+        name: "Parched Spawn Egg",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/parched_spawn_egg.png"
+    },
+    "minecraft:camel_husk_spawn_egg": {
+        name: "Camel Husk Spawn Egg",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/camel_husk_spawn_egg.png"
+    },
+    "minecraft:nautilus_spawn_egg": {
+        name: "Nautilus Spawn Egg",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/nautilus_spawn_egg.png"
+    },
+    "minecraft:wooden_spear": {
+        name: "Wooden Spear",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/wooden_spear.png"
+    },
+    "minecraft:stone_spear": {
+        name: "Stone Spear",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/stone_spear.png"
+    },
+    "minecraft:copper_spear": {
+        name: "Copper Spear",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_spear.png"
+    },
+    "minecraft:iron_spear": {
+        name: "Iron Spear",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_spear.png"
+    },
+    "minecraft:golden_spear": {
+        name: "Golden Spear",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/golden_spear.png"
+    },
+    "minecraft:diamond_spear": {
+        name: "Diamond Spear",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/diamond_spear.png"
+    },
+    "minecraft:netherite_spear": {
+        name: "Netherite Spear",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/netherite_spear.png"
     },
 
     "minecraft:furnace_minecart": {
         name: "Minecart with Furnace",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/furnace_minecart.png",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/furnace_minecart.png",
         filter: "java"
     },
     "minecraft:debug_stick": {
         name: "Debug Stick",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/stick.png",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/stick.png",
         filter: "java"
     },
     "minecraft:map": {
         name: "Empty Map",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/map.png",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/map.png",
         filter: "java"
     },
     "minecraft:knowledge_book": {
         name: "Knowledge Book",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/knowledge_book.png",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/knowledge_book.png",
         filter: "java"
     },
     "minecraft:spectral_arrow": {
         name: "Spectral Arrow",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/spectral_arrow.png",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/spectral_arrow.png",
         filter: "java"
     },
 
     "minecraft:empty_map": {
         name: "Empty Map",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/map.png",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/map.png",
         filter: "bedrock"
     },
     "minecraft:agent_spawn_egg": {
@@ -1943,7 +2013,7 @@ const itemDefinitions = {
     },
     "minecraft:acacia_door": {
         name: "Acacia Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/acacia_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/acacia_door.png"
     },
     "minecraft:acacia_fence": {
         name: "Acacia Fence",
@@ -1955,7 +2025,7 @@ const itemDefinitions = {
     },
     "minecraft:acacia_hanging_sign": {
         name: "Acacia Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/acacia_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/acacia_hanging_sign.png"
     },
     "minecraft:acacia_leaves": {
         name: "Acacia Leaves",
@@ -1975,7 +2045,7 @@ const itemDefinitions = {
     },
     "minecraft:acacia_sapling": {
         name: "Acacia Sapling",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/acacia_sapling.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/acacia_sapling.png"
     },
     "minecraft:acacia_shelf": {
         name: "Acacia Shelf",
@@ -1983,7 +2053,7 @@ const itemDefinitions = {
     },
     "minecraft:acacia_sign": {
         name: "Acacia Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/acacia_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/acacia_sign.png"
     },
     "minecraft:acacia_slab": {
         name: "Acacia Slab",
@@ -2003,15 +2073,15 @@ const itemDefinitions = {
     },
     "minecraft:activator_rail": {
         name: "Activator Rail",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/activator_rail.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/activator_rail.png"
     },
     "minecraft:allium": {
         name: "Allium",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/allium.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/allium.png"
     },
     "minecraft:amethyst_cluster": {
         name: "Amethyst Cluster",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/amethyst_cluster.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/amethyst_cluster.png"
     },
     "minecraft:ancient_debris": {
         name: "Ancient Debris",
@@ -2047,11 +2117,11 @@ const itemDefinitions = {
     },
     "minecraft:azure_bluet": {
         name: "Azure Bluet",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/azure_bluet.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/azure_bluet.png"
     },
     "minecraft:bamboo": {
         name: "Bamboo",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bamboo.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bamboo.png"
     },
     "minecraft:bamboo_button": {
         name: "Bamboo Button",
@@ -2059,7 +2129,7 @@ const itemDefinitions = {
     },
     "minecraft:bamboo_door": {
         name: "Bamboo Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bamboo_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bamboo_door.png"
     },
     "minecraft:bamboo_fence": {
         name: "Bamboo Fence",
@@ -2071,7 +2141,7 @@ const itemDefinitions = {
     },
     "minecraft:bamboo_hanging_sign": {
         name: "Bamboo Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bamboo_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bamboo_hanging_sign.png"
     },
     "minecraft:bamboo_mosaic": {
         name: "Bamboo Mosaic",
@@ -2103,7 +2173,7 @@ const itemDefinitions = {
     },
     "minecraft:bamboo_sign": {
         name: "Bamboo Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bamboo_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bamboo_sign.png"
     },
     "minecraft:bamboo_slab": {
         name: "Bamboo Slab",
@@ -2123,7 +2193,7 @@ const itemDefinitions = {
     },
     "minecraft:barrier": {
         name: "Barrier",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/barrier.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/barrier.png"
     },
     "minecraft:basalt": {
         name: "Basalt",
@@ -2147,7 +2217,7 @@ const itemDefinitions = {
     },
     "minecraft:bell": {
         name: "Bell",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/bell.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/bell.png"
     },
     "minecraft:big_dripleaf": {
         name: "Big Dripleaf",
@@ -2159,7 +2229,7 @@ const itemDefinitions = {
     },
     "minecraft:birch_door": {
         name: "Birch Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/birch_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/birch_door.png"
     },
     "minecraft:birch_fence": {
         name: "Birch Fence",
@@ -2171,7 +2241,7 @@ const itemDefinitions = {
     },
     "minecraft:birch_hanging_sign": {
         name: "Birch Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/birch_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/birch_hanging_sign.png"
     },
     "minecraft:birch_leaves": {
         name: "Birch Leaves",
@@ -2191,7 +2261,7 @@ const itemDefinitions = {
     },
     "minecraft:birch_sapling": {
         name: "Birch Sapling",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/birch_sapling.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/birch_sapling.png"
     },
     "minecraft:birch_shelf": {
         name: "Birch Shelf",
@@ -2199,7 +2269,7 @@ const itemDefinitions = {
     },
     "minecraft:birch_sign": {
         name: "Birch Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/birch_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/birch_sign.png"
     },
     "minecraft:birch_slab": {
         name: "Birch Slab",
@@ -2227,7 +2297,7 @@ const itemDefinitions = {
     },
     "minecraft:black_candle": {
         name: "Black Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/black_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/black_candle.png"
     },
     "minecraft:black_carpet": {
         name: "Black Carpet",
@@ -2363,7 +2433,7 @@ const itemDefinitions = {
     },
     "minecraft:blue_candle": {
         name: "Blue Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/blue_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/blue_candle.png"
     },
     "minecraft:blue_carpet": {
         name: "Blue Carpet",
@@ -2403,7 +2473,7 @@ const itemDefinitions = {
     },
     "minecraft:blue_orchid": {
         name: "Blue Orchid",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/blue_orchid.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/blue_orchid.png"
     },
     "minecraft:bone_block": {
         name: "Bone Block",
@@ -2415,7 +2485,7 @@ const itemDefinitions = {
     },
     "minecraft:brain_coral": {
         name: "Brain Coral",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/brain_coral.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/brain_coral.png"
     },
     "minecraft:brain_coral_block": {
         name: "Brain Coral Block",
@@ -2423,11 +2493,11 @@ const itemDefinitions = {
     },
     "minecraft:brain_coral_fan": {
         name: "Brain Coral Fan",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/brain_coral_fan.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/brain_coral_fan.png"
     },
     "minecraft:brewing_stand": {
         name: "Brewing Stand",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/brewing_stand.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/brewing_stand.png"
     },
     "minecraft:bricks": {
         name: "Bricks",
@@ -2455,7 +2525,7 @@ const itemDefinitions = {
     },
     "minecraft:brown_candle": {
         name: "Brown Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/brown_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/brown_candle.png"
     },
     "minecraft:brown_carpet": {
         name: "Brown Carpet",
@@ -2495,7 +2565,7 @@ const itemDefinitions = {
     },
     "minecraft:brown_mushroom": {
         name: "Brown Mushroom",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/brown_mushroom.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/brown_mushroom.png"
     },
     "minecraft:brown_mushroom_block": {
         name: "Brown Mushroom Block",
@@ -2508,7 +2578,7 @@ const itemDefinitions = {
     },
     "minecraft:bubble_coral": {
         name: "Bubble Coral",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/bubble_coral.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/bubble_coral.png"
     },
     "minecraft:bubble_coral_block": {
         name: "Bubble Coral Block",
@@ -2516,7 +2586,7 @@ const itemDefinitions = {
     },
     "minecraft:bubble_coral_fan": {
         name: "Bubble Coral Fan",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/bubble_coral_fan.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/bubble_coral_fan.png"
     },
     "minecraft:budding_amethyst": {
         name: "Budding Amethyst",
@@ -2524,7 +2594,7 @@ const itemDefinitions = {
     },
     "minecraft:bush": {
         name: "Bush",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/bush.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/bush.png"
     },
     "minecraft:cactus": {
         name: "Cactus",
@@ -2532,7 +2602,7 @@ const itemDefinitions = {
     },
     "minecraft:cactus_flower": {
         name: "Cactus Flower",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/cactus_flower.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/cactus_flower.png"
     },
     "minecraft:cake": {
         name: "Cake",
@@ -2548,11 +2618,11 @@ const itemDefinitions = {
     },
     "minecraft:campfire": {
         name: "Campfire",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/campfire.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/campfire.png"
     },
     "minecraft:candle": {
         name: "Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/candle.png"
     },
     "minecraft:cartography_table": {
         name: "Cartography Table",
@@ -2580,7 +2650,7 @@ const itemDefinitions = {
     },
     "minecraft:cherry_door": {
         name: "Cherry Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cherry_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cherry_door.png"
     },
     "minecraft:cherry_fence": {
         name: "Cherry Fence",
@@ -2592,7 +2662,7 @@ const itemDefinitions = {
     },
     "minecraft:cherry_hanging_sign": {
         name: "Cherry Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cherry_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cherry_hanging_sign.png"
     },
     "minecraft:cherry_leaves": {
         name: "Cherry Leaves",
@@ -2612,7 +2682,7 @@ const itemDefinitions = {
     },
     "minecraft:cherry_sapling": {
         name: "Cherry Sapling",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/cherry_sapling.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/cherry_sapling.png"
     },
     "minecraft:cherry_shelf": {
         name: "Cherry Shelf",
@@ -2620,7 +2690,7 @@ const itemDefinitions = {
     },
     "minecraft:cherry_sign": {
         name: "Cherry Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cherry_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cherry_sign.png"
     },
     "minecraft:cherry_slab": {
         name: "Cherry Slab",
@@ -2704,7 +2774,7 @@ const itemDefinitions = {
     },
     "minecraft:closed_eyeblossom": {
         name: "Closed Eyeblossom",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/closed_eyeblossom.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/closed_eyeblossom.png"
     },
     "minecraft:coal_ore": {
         name: "Coal Ore",
@@ -2748,12 +2818,12 @@ const itemDefinitions = {
     },
     "minecraft:cobweb": {
         name: "Cobweb",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/cobweb.png",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/cobweb.png",
         filter: "java"
     },
     "minecraft:web": {
         name: "Cobweb",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/cobweb.png",
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/cobweb.png",
         filter: "bedrock"
     },
     "minecraft:command_block": {
@@ -2770,7 +2840,7 @@ const itemDefinitions = {
     },
     "minecraft:copper_bars": {
         name: "Copper Bars",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/copper_bars.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/copper_bars.png"
     },
     "minecraft:copper_bulb": {
         name: "Copper Bulb",
@@ -2778,7 +2848,7 @@ const itemDefinitions = {
     },
     "minecraft:copper_chain": {
         name: "Copper Chain",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_chain.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_chain.png"
     },
     "minecraft:copper_chest": {
         name: "Copper Chest",
@@ -2786,7 +2856,7 @@ const itemDefinitions = {
     },
     "minecraft:copper_door": {
         name: "Copper Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_door.png"
     },
     "minecraft:copper_golem_statue": {
         name: "Copper Golem Statue",
@@ -2798,7 +2868,7 @@ const itemDefinitions = {
     },
     "minecraft:copper_lantern": {
         name: "Copper Lantern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_lantern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_lantern.png"
     },
     "minecraft:copper_ore": {
         name: "Copper Ore",
@@ -2806,7 +2876,7 @@ const itemDefinitions = {
     },
     "minecraft:copper_torch": {
         name: "Copper Torch",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/copper_torch.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/copper_torch.png"
     },
     "minecraft:copper_trapdoor": {
         name: "Copper Trapdoor",
@@ -2814,7 +2884,7 @@ const itemDefinitions = {
     },
     "minecraft:cornflower": {
         name: "Cornflower",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/cornflower.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/cornflower.png"
     },
     "minecraft:cracked_deepslate_bricks": {
         name: "Cracked Deepslate Bricks",
@@ -2858,7 +2928,7 @@ const itemDefinitions = {
     },
     "minecraft:crimson_door": {
         name: "Crimson Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/crimson_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/crimson_door.png"
     },
     "minecraft:crimson_fence": {
         name: "Crimson Fence",
@@ -2870,11 +2940,11 @@ const itemDefinitions = {
     },
     "minecraft:crimson_fungus": {
         name: "Crimson Fungus",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/crimson_fungus.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/crimson_fungus.png"
     },
     "minecraft:crimson_hanging_sign": {
         name: "Crimson Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/crimson_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/crimson_hanging_sign.png"
     },
     "minecraft:crimson_hyphae": {
         name: "Crimson Hyphae",
@@ -2894,7 +2964,7 @@ const itemDefinitions = {
     },
     "minecraft:crimson_roots": {
         name: "Crimson Roots",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/crimson_roots.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/crimson_roots.png"
     },
     "minecraft:crimson_shelf": {
         name: "Crimson Shelf",
@@ -2902,7 +2972,7 @@ const itemDefinitions = {
     },
     "minecraft:crimson_sign": {
         name: "Crimson Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/crimson_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/crimson_sign.png"
     },
     "minecraft:crimson_slab": {
         name: "Crimson Slab",
@@ -2950,7 +3020,7 @@ const itemDefinitions = {
     },
     "minecraft:cyan_candle": {
         name: "Cyan Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/cyan_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/cyan_candle.png"
     },
     "minecraft:cyan_carpet": {
         name: "Cyan Carpet",
@@ -2994,7 +3064,7 @@ const itemDefinitions = {
     },
     "minecraft:dandelion": {
         name: "Dandelion",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dandelion.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dandelion.png"
     },
     "minecraft:dark_oak_button": {
         name: "Dark Oak Button",
@@ -3002,7 +3072,7 @@ const itemDefinitions = {
     },
     "minecraft:dark_oak_door": {
         name: "Dark Oak Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/dark_oak_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/dark_oak_door.png"
     },
     "minecraft:dark_oak_fence": {
         name: "Dark Oak Fence",
@@ -3014,7 +3084,7 @@ const itemDefinitions = {
     },
     "minecraft:dark_oak_hanging_sign": {
         name: "Dark Oak Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/dark_oak_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/dark_oak_hanging_sign.png"
     },
     "minecraft:dark_oak_leaves": {
         name: "Dark Oak Leaves",
@@ -3034,7 +3104,7 @@ const itemDefinitions = {
     },
     "minecraft:dark_oak_sapling": {
         name: "Dark Oak Sapling",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dark_oak_sapling.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dark_oak_sapling.png"
     },
     "minecraft:dark_oak_shelf": {
         name: "Dark Oak Shelf",
@@ -3042,7 +3112,7 @@ const itemDefinitions = {
     },
     "minecraft:dark_oak_sign": {
         name: "Dark Oak Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/dark_oak_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/dark_oak_sign.png"
     },
     "minecraft:dark_oak_slab": {
         name: "Dark Oak Slab",
@@ -3078,7 +3148,7 @@ const itemDefinitions = {
     },
     "minecraft:dead_brain_coral": {
         name: "Dead Brain Coral",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_brain_coral.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_brain_coral.png"
     },
     "minecraft:dead_brain_coral_block": {
         name: "Dead Brain Coral Block",
@@ -3086,11 +3156,11 @@ const itemDefinitions = {
     },
     "minecraft:dead_brain_coral_fan": {
         name: "Dead Brain Coral Fan",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_brain_coral_fan.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_brain_coral_fan.png"
     },
     "minecraft:dead_bubble_coral": {
         name: "Dead Bubble Coral",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_bubble_coral.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_bubble_coral.png"
     },
     "minecraft:dead_bubble_coral_block": {
         name: "Dead Bubble Coral Block",
@@ -3098,15 +3168,15 @@ const itemDefinitions = {
     },
     "minecraft:dead_bubble_coral_fan": {
         name: "Dead Bubble Coral Fan",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_bubble_coral_fan.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_bubble_coral_fan.png"
     },
     "minecraft:dead_bush": {
         name: "Dead Bush",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_bush.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_bush.png"
     },
     "minecraft:dead_fire_coral": {
         name: "Dead Fire Coral",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_fire_coral.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_fire_coral.png"
     },
     "minecraft:dead_fire_coral_block": {
         name: "Dead Fire Coral Block",
@@ -3114,11 +3184,11 @@ const itemDefinitions = {
     },
     "minecraft:dead_fire_coral_fan": {
         name: "Dead Fire Coral Fan",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_fire_coral_fan.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_fire_coral_fan.png"
     },
     "minecraft:dead_horn_coral": {
         name: "Dead Horn Coral",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_horn_coral.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_horn_coral.png"
     },
     "minecraft:dead_horn_coral_block": {
         name: "Dead Horn Coral Block",
@@ -3126,11 +3196,11 @@ const itemDefinitions = {
     },
     "minecraft:dead_horn_coral_fan": {
         name: "Dead Horn Coral Fan",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_horn_coral_fan.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_horn_coral_fan.png"
     },
     "minecraft:dead_tube_coral": {
         name: "Dead Tube Coral",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_tube_coral.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_tube_coral.png"
     },
     "minecraft:dead_tube_coral_block": {
         name: "Dead Tube Coral Block",
@@ -3138,7 +3208,7 @@ const itemDefinitions = {
     },
     "minecraft:dead_tube_coral_fan": {
         name: "Dead Tube Coral Fan",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/dead_tube_coral_fan.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/dead_tube_coral_fan.png"
     },
     "minecraft:decorated_pot": {
         name: "Decorated Pot",
@@ -3214,7 +3284,7 @@ const itemDefinitions = {
     },
     "minecraft:detector_rail": {
         name: "Detector Rail",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/detector_rail.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/detector_rail.png"
     },
     "minecraft:diamond_ore": {
         name: "Diamond Ore",
@@ -3330,7 +3400,7 @@ const itemDefinitions = {
     },
     "minecraft:exposed_copper_bars": {
         name: "Exposed Copper Bars",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/exposed_copper_bars.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/exposed_copper_bars.png"
     },
     "minecraft:exposed_copper_bulb": {
         name: "Exposed Copper Bulb",
@@ -3338,7 +3408,7 @@ const itemDefinitions = {
     },
     "minecraft:exposed_copper_chain": {
         name: "Exposed Copper Chain",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/exposed_copper_chain.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/exposed_copper_chain.png"
     },
     "minecraft:exposed_copper_chest": {
         name: "Exposed Copper Chest",
@@ -3346,7 +3416,7 @@ const itemDefinitions = {
     },
     "minecraft:exposed_copper_door": {
         name: "Exposed Copper Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/exposed_copper_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/exposed_copper_door.png"
     },
     "minecraft:exposed_copper_golem_statue": {
         name: "Exposed Copper Golem Statue",
@@ -3358,7 +3428,7 @@ const itemDefinitions = {
     },
     "minecraft:exposed_copper_lantern": {
         name: "Exposed Copper Lantern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/exposed_copper_lantern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/exposed_copper_lantern.png"
     },
     "minecraft:exposed_copper_trapdoor": {
         name: "Exposed Copper Trapdoor",
@@ -3386,7 +3456,7 @@ const itemDefinitions = {
     },
     "minecraft:fern": {
         name: "Fern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/fern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/fern.png"
     },
     "minecraft:fire": {
         name: "Fire",
@@ -3395,7 +3465,7 @@ const itemDefinitions = {
     },
     "minecraft:fire_coral": {
         name: "Fire Coral",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/fire_coral.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/fire_coral.png"
     },
     "minecraft:fire_coral_block": {
         name: "Fire Coral Block",
@@ -3403,11 +3473,11 @@ const itemDefinitions = {
     },
     "minecraft:fire_coral_fan": {
         name: "Fire Coral Fan",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/fire_coral_fan.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/fire_coral_fan.png"
     },
     "minecraft:firefly_bush": {
         name: "Firefly Bush",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/firefly_bush.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/firefly_bush.png"
     },
     "minecraft:fletching_table": {
         name: "Fletching Table",
@@ -3415,7 +3485,7 @@ const itemDefinitions = {
     },
     "minecraft:flower_pot": {
         name: "Flower Pot",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/flower_pot.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/flower_pot.png"
     },
     "minecraft:flowering_azalea": {
         name: "Flowering Azalea",
@@ -3427,7 +3497,7 @@ const itemDefinitions = {
     },
     "minecraft:frogspawn": {
         name: "Frogspawn",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/frogspawn.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/frogspawn.png"
     },
     "minecraft:frosted_ice": {
         name: "Frosted Ice",
@@ -3451,7 +3521,7 @@ const itemDefinitions = {
     },
     "minecraft:glow_lichen": {
         name: "Glow Lichen",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/glow_lichen.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/glow_lichen.png"
     },
     "minecraft:glowstone": {
         name: "Glowstone",
@@ -3495,7 +3565,7 @@ const itemDefinitions = {
     },
     "minecraft:gray_candle": {
         name: "Gray Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/gray_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/gray_candle.png"
     },
     "minecraft:gray_carpet": {
         name: "Gray Carpet",
@@ -3543,7 +3613,7 @@ const itemDefinitions = {
     },
     "minecraft:green_candle": {
         name: "Green Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/green_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/green_candle.png"
     },
     "minecraft:green_carpet": {
         name: "Green Carpet",
@@ -3587,7 +3657,7 @@ const itemDefinitions = {
     },
     "minecraft:hanging_roots": {
         name: "Hanging Roots",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/hanging_roots.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/hanging_roots.png"
     },
     "minecraft:hay_block": {
         name: "Hay Bale",
@@ -3611,11 +3681,11 @@ const itemDefinitions = {
     },
     "minecraft:hopper": {
         name: "Hopper",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/hopper.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/hopper.png"
     },
     "minecraft:horn_coral": {
         name: "Horn Coral",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/horn_coral.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/horn_coral.png"
     },
     "minecraft:horn_coral_block": {
         name: "Horn Coral Block",
@@ -3623,7 +3693,7 @@ const itemDefinitions = {
     },
     "minecraft:horn_coral_fan": {
         name: "Horn Coral Fan",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/horn_coral_fan.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/horn_coral_fan.png"
     },
     "minecraft:ice": {
         name: "Ice",
@@ -3659,15 +3729,15 @@ const itemDefinitions = {
     },
     "minecraft:iron_bars": {
         name: "Iron Bars",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/iron_bars.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/iron_bars.png"
     },
     "minecraft:iron_chain": {
         name: "Iron Chain",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_chain.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_chain.png"
     },
     "minecraft:iron_door": {
         name: "Iron Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/iron_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/iron_door.png"
     },
     "minecraft:iron_ore": {
         name: "Iron Ore",
@@ -3701,7 +3771,7 @@ const itemDefinitions = {
     },
     "minecraft:jungle_door": {
         name: "Jungle Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/jungle_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/jungle_door.png"
     },
     "minecraft:jungle_fence": {
         name: "Jungle Fence",
@@ -3713,7 +3783,7 @@ const itemDefinitions = {
     },
     "minecraft:jungle_hanging_sign": {
         name: "Jungle Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/jungle_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/jungle_hanging_sign.png"
     },
     "minecraft:jungle_leaves": {
         name: "Jungle Leaves",
@@ -3733,7 +3803,7 @@ const itemDefinitions = {
     },
     "minecraft:jungle_sapling": {
         name: "Jungle Sapling",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/jungle_sapling.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/jungle_sapling.png"
     },
     "minecraft:jungle_shelf": {
         name: "Jungle Shelf",
@@ -3741,7 +3811,7 @@ const itemDefinitions = {
     },
     "minecraft:jungle_sign": {
         name: "Jungle Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/jungle_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/jungle_sign.png"
     },
     "minecraft:jungle_slab": {
         name: "Jungle Slab",
@@ -3761,11 +3831,11 @@ const itemDefinitions = {
     },
     "minecraft:ladder": {
         name: "Ladder",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/ladder.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/ladder.png"
     },
     "minecraft:lantern": {
         name: "Lantern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/lantern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/lantern.png"
     },
     "minecraft:lapis_ore": {
         name: "Lapis Lazuli Ore",
@@ -3773,11 +3843,11 @@ const itemDefinitions = {
     },
     "minecraft:large_amethyst_bud": {
         name: "Large Amethyst Bud",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/large_amethyst_bud.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/large_amethyst_bud.png"
     },
     "minecraft:large_fern": {
         name: "Large Fern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/large_fern_top.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/large_fern_top.png"
     },
     "minecraft:lava": {
         name: "Lava",
@@ -3786,7 +3856,7 @@ const itemDefinitions = {
     },
     "minecraft:leaf_litter": {
         name: "Leaf Litter",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/leaf_litter.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/leaf_litter.png"
     },
     "minecraft:lectern": {
         name: "Lectern",
@@ -3794,7 +3864,7 @@ const itemDefinitions = {
     },
     "minecraft:lever": {
         name: "Lever",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/lever.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/lever.png"
     },
     "minecraft:light_blue_banner": {
         name: "Light Blue Banner",
@@ -3806,7 +3876,7 @@ const itemDefinitions = {
     },
     "minecraft:light_blue_candle": {
         name: "Light Blue Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/light_blue_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/light_blue_candle.png"
     },
     "minecraft:light_blue_carpet": {
         name: "Light Blue Carpet",
@@ -3854,7 +3924,7 @@ const itemDefinitions = {
     },
     "minecraft:light_gray_candle": {
         name: "Light Gray Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/light_gray_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/light_gray_candle.png"
     },
     "minecraft:light_gray_carpet": {
         name: "Light Gray Carpet",
@@ -3902,15 +3972,15 @@ const itemDefinitions = {
     },
     "minecraft:lilac": {
         name: "Lilac",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/lilac_top.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/lilac_top.png"
     },
     "minecraft:lily_of_the_valley": {
         name: "Lily of the Valley",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/lily_of_the_valley.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/lily_of_the_valley.png"
     },
     "minecraft:lily_pad": {
         name: "Lily Pad",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/lily_pad.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/lily_pad.png"
     },
     "minecraft:lime_banner": {
         name: "Lime Banner",
@@ -3922,7 +3992,7 @@ const itemDefinitions = {
     },
     "minecraft:lime_candle": {
         name: "Lime Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/lime_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/lime_candle.png"
     },
     "minecraft:lime_carpet": {
         name: "Lime Carpet",
@@ -3978,7 +4048,7 @@ const itemDefinitions = {
     },
     "minecraft:magenta_candle": {
         name: "Magenta Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/magenta_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/magenta_candle.png"
     },
     "minecraft:magenta_carpet": {
         name: "Magenta Carpet",
@@ -4026,7 +4096,7 @@ const itemDefinitions = {
     },
     "minecraft:mangrove_door": {
         name: "Mangrove Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mangrove_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mangrove_door.png"
     },
     "minecraft:mangrove_fence": {
         name: "Mangrove Fence",
@@ -4038,7 +4108,7 @@ const itemDefinitions = {
     },
     "minecraft:mangrove_hanging_sign": {
         name: "Mangrove Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mangrove_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mangrove_hanging_sign.png"
     },
     "minecraft:mangrove_leaves": {
         name: "Mangrove Leaves",
@@ -4054,7 +4124,7 @@ const itemDefinitions = {
     },
     "minecraft:mangrove_propagule": {
         name: "Mangrove Propagule",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mangrove_propagule.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mangrove_propagule.png"
     },
     "minecraft:mangrove_planks": {
         name: "Mangrove Planks",
@@ -4070,7 +4140,7 @@ const itemDefinitions = {
     },
     "minecraft:mangrove_sign": {
         name: "Mangrove Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/mangrove_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/mangrove_sign.png"
     },
     "minecraft:mangrove_slab": {
         name: "Mangrove Slab",
@@ -4090,7 +4160,7 @@ const itemDefinitions = {
     },
     "minecraft:medium_amethyst_bud": {
         name: "Medium Amethyst Bud",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/medium_amethyst_bud.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/medium_amethyst_bud.png"
     },
     "minecraft:melon": {
         name: "Melon",
@@ -4098,7 +4168,7 @@ const itemDefinitions = {
     },
     "minecraft:melon_stem": {
         name: "Melon Stem",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/melon_stem.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/melon_stem.png"
     },
     "minecraft:spawner": {
         name: "Monster Spawner",
@@ -4217,11 +4287,7 @@ const itemDefinitions = {
     },
     "minecraft:nether_sprouts": {
         name: "Nether Sprouts",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/nether_sprouts.png"
-    },
-    "minecraft:nether_wart": {
-        name: "Nether Wart",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/nether_wart.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/nether_sprouts.png"
     },
     "minecraft:nether_wart_block": {
         name: "Nether Wart Block",
@@ -4241,7 +4307,7 @@ const itemDefinitions = {
     },
     "minecraft:oak_door": {
         name: "Oak Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oak_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oak_door.png"
     },
     "minecraft:oak_fence": {
         name: "Oak Fence",
@@ -4253,7 +4319,7 @@ const itemDefinitions = {
     },
     "minecraft:oak_hanging_sign": {
         name: "Oak Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oak_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oak_hanging_sign.png"
     },
     "minecraft:oak_leaves": {
         name: "Oak Leaves",
@@ -4273,7 +4339,7 @@ const itemDefinitions = {
     },
     "minecraft:oak_sapling": {
         name: "Oak Sapling",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/oak_sapling.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/oak_sapling.png"
     },
     "minecraft:oak_shelf": {
         name: "Oak Shelf",
@@ -4281,7 +4347,7 @@ const itemDefinitions = {
     },
     "minecraft:oak_sign": {
         name: "Oak Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oak_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oak_sign.png"
     },
     "minecraft:oak_slab": {
         name: "Oak Slab",
@@ -4317,7 +4383,7 @@ const itemDefinitions = {
     },
     "minecraft:open_eyeblossom": {
         name: "Open Eyeblossom",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/open_eyeblossom.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/open_eyeblossom.png"
     },
     "minecraft:orange_banner": {
         name: "Orange Banner",
@@ -4329,7 +4395,7 @@ const itemDefinitions = {
     },
     "minecraft:orange_candle": {
         name: "Orange Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/orange_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/orange_candle.png"
     },
     "minecraft:orange_carpet": {
         name: "Orange Carpet",
@@ -4369,11 +4435,11 @@ const itemDefinitions = {
     },
     "minecraft:orange_tulip": {
         name: "Orange Tulip",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/orange_tulip.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/orange_tulip.png"
     },
     "minecraft:oxeye_daisy": {
         name: "Oxeye Daisy",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/oxeye_daisy.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/oxeye_daisy.png"
     },
     "minecraft:oxidized_chiseled_copper": {
         name: "Oxidized Chiseled Copper",
@@ -4385,7 +4451,7 @@ const itemDefinitions = {
     },
     "minecraft:oxidized_copper_bars": {
         name: "Oxidized Copper Bars",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/oxidized_copper_bars.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/oxidized_copper_bars.png"
     },
     "minecraft:oxidized_copper_bulb": {
         name: "Oxidized Copper Bulb",
@@ -4393,7 +4459,7 @@ const itemDefinitions = {
     },
     "minecraft:oxidized_copper_chain": {
         name: "Oxidized Copper Chain",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oxidized_copper_chain.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oxidized_copper_chain.png"
     },
     "minecraft:oxidized_copper_chest": {
         name: "Oxidized Copper Chest",
@@ -4401,7 +4467,7 @@ const itemDefinitions = {
     },
     "minecraft:oxidized_copper_door": {
         name: "Oxidized Copper Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oxidized_copper_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oxidized_copper_door.png"
     },
     "minecraft:oxidized_copper_golem_statue": {
         name: "Oxidized Copper Golem Statue",
@@ -4413,7 +4479,7 @@ const itemDefinitions = {
     },
     "minecraft:oxidized_copper_lantern": {
         name: "Oxidized Copper Lantern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oxidized_copper_lantern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oxidized_copper_lantern.png"
     },
     "minecraft:oxidized_copper_trapdoor": {
         name: "Oxidized Copper Trapdoor",
@@ -4445,7 +4511,7 @@ const itemDefinitions = {
     },
     "minecraft:pale_hanging_moss": {
         name: "Pale Hanging Moss",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/pale_hanging_moss.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/pale_hanging_moss.png"
     },
     "minecraft:pale_moss_block": {
         name: "Pale Moss Block",
@@ -4461,7 +4527,7 @@ const itemDefinitions = {
     },
     "minecraft:pale_oak_door": {
         name: "Pale Oak Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pale_oak_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pale_oak_door.png"
     },
     "minecraft:pale_oak_fence": {
         name: "Pale Oak Fence",
@@ -4473,7 +4539,7 @@ const itemDefinitions = {
     },
     "minecraft:pale_oak_hanging_sign": {
         name: "Pale Oak Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pale_oak_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pale_oak_hanging_sign.png"
     },
     "minecraft:pale_oak_leaves": {
         name: "Pale Oak Leaves",
@@ -4493,7 +4559,7 @@ const itemDefinitions = {
     },
     "minecraft:pale_oak_sapling": {
         name: "Pale Oak Sapling",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/pale_oak_sapling.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/pale_oak_sapling.png"
     },
     "minecraft:pale_oak_shelf": {
         name: "Pale Oak Shelf",
@@ -4501,7 +4567,7 @@ const itemDefinitions = {
     },
     "minecraft:pale_oak_sign": {
         name: "Pale Oak Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pale_oak_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pale_oak_sign.png"
     },
     "minecraft:pale_oak_slab": {
         name: "Pale Oak Slab",
@@ -4525,7 +4591,7 @@ const itemDefinitions = {
     },
     "minecraft:peony": {
         name: "Peony",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/peony_top.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/peony_top.png"
     },
     "minecraft:petrified_oak_slab": {
         name: "Petrified Oak Slab",
@@ -4546,7 +4612,7 @@ const itemDefinitions = {
     },
     "minecraft:pink_candle": {
         name: "Pink Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pink_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pink_candle.png"
     },
     "minecraft:pink_carpet": {
         name: "Pink Carpet",
@@ -4586,11 +4652,11 @@ const itemDefinitions = {
     },
     "minecraft:pink_petals": {
         name: "Pink Petals",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pink_petals.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pink_petals.png"
     },
     "minecraft:pink_tulip": {
         name: "Pink Tulip",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/pink_tulip.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/pink_tulip.png"
     },
     "minecraft:piston": {
         name: "Piston",
@@ -4598,7 +4664,7 @@ const itemDefinitions = {
     },
     "minecraft:pitcher_plant": {
         name: "Pitcher Plant",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pitcher_plant.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pitcher_plant.png"
     },
     "minecraft:player_head": {
         name: "Player Head",
@@ -4610,7 +4676,7 @@ const itemDefinitions = {
     },
     "minecraft:pointed_dripstone": {
         name: "Pointed Dripstone",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/pointed_dripstone.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/pointed_dripstone.png"
     },
     "minecraft:polished_andesite": {
         name: "Polished Andesite",
@@ -4726,7 +4792,7 @@ const itemDefinitions = {
     },
     "minecraft:poppy": {
         name: "Poppy",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/poppy.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/poppy.png"
     },
     "minecraft:powder_snow": {
         name: "Powder Snow",
@@ -4734,7 +4800,7 @@ const itemDefinitions = {
     },
     "minecraft:powered_rail": {
         name: "Powered Rail",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/powered_rail.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/powered_rail.png"
     },
     "minecraft:prismarine": {
         name: "Prismarine",
@@ -4770,7 +4836,7 @@ const itemDefinitions = {
     },
     "minecraft:pumpkin_stem": {
         name: "Pumpkin Stem",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/pumpkin_stem.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/pumpkin_stem.png"
     },
     "minecraft:purple_banner": {
         name: "Purple Banner",
@@ -4782,7 +4848,7 @@ const itemDefinitions = {
     },
     "minecraft:purple_candle": {
         name: "Purple Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/purple_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/purple_candle.png"
     },
     "minecraft:purple_carpet": {
         name: "Purple Carpet",
@@ -4854,7 +4920,7 @@ const itemDefinitions = {
     },
     "minecraft:rail": {
         name: "Rail",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/rail.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/rail.png"
     },
     "minecraft:red_banner": {
         name: "Red Banner",
@@ -4866,7 +4932,7 @@ const itemDefinitions = {
     },
     "minecraft:red_candle": {
         name: "Red Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/red_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/red_candle.png"
     },
     "minecraft:red_carpet": {
         name: "Red Carpet",
@@ -4906,7 +4972,7 @@ const itemDefinitions = {
     },
     "minecraft:red_mushroom": {
         name: "Red Mushroom",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/red_mushroom.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/red_mushroom.png"
     },
     "minecraft:red_nether_brick_slab": {
         name: "Red Nether Brick Slab",
@@ -4946,11 +5012,11 @@ const itemDefinitions = {
     },
     "minecraft:red_tulip": {
         name: "Red Tulip",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/red_tulip.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/red_tulip.png"
     },
     "minecraft:comparator": {
         name: "Redstone Comparator",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/comparator.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/comparator.png"
     },
     "minecraft:redstone_lamp": {
         name: "Redstone Lamp",
@@ -4962,11 +5028,11 @@ const itemDefinitions = {
     },
     "minecraft:repeater": {
         name: "Redstone Repeater",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/repeater.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/repeater.png"
     },
     "minecraft:redstone_torch": {
         name: "Redstone Torch",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/redstone_torch.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/redstone_torch.png"
     },
     "minecraft:reinforced_deepslate": {
         name: "Reinforced Deepslate",
@@ -4998,7 +5064,7 @@ const itemDefinitions = {
     },
     "minecraft:resin_clump": {
         name: "Resin Clump",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/resin_clump.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/resin_clump.png"
     },
     "minecraft:rooted_dirt": {
         name: "Rooted Dirt",
@@ -5006,7 +5072,7 @@ const itemDefinitions = {
     },
     "minecraft:rose_bush": {
         name: "Rose Bush",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/rose_bush_top.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/rose_bush_top.png"
     },
     "minecraft:sand": {
         name: "Sand",
@@ -5058,19 +5124,19 @@ const itemDefinitions = {
     },
     "minecraft:sea_pickle": {
         name: "Sea Pickle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/sea_pickle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/sea_pickle.png"
     },
     "minecraft:seagrass": {
         name: "Seagrass",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/seagrass.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/seagrass.png"
     },
     "minecraft:short_dry_grass": {
         name: "Short Dry Grass",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/short_dry_grass.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/short_dry_grass.png"
     },
     "minecraft:short_grass": {
         name: "Short Grass",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/short_grass.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/short_grass.png"
     },
     "minecraft:shroomlight": {
         name: "Shroomlight",
@@ -5090,7 +5156,7 @@ const itemDefinitions = {
     },
     "minecraft:small_amethyst_bud": {
         name: "Small Amethyst Bud",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/small_amethyst_bud.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/small_amethyst_bud.png"
     },
     "minecraft:small_dripleaf": {
         name: "Small Dripleaf",
@@ -5154,7 +5220,7 @@ const itemDefinitions = {
     },
     "minecraft:sniffer_egg": {
         name: "Sniffer Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/sniffer_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/sniffer_egg.png"
     },
     "minecraft:snow": {
         name: "Snow",
@@ -5172,7 +5238,7 @@ const itemDefinitions = {
     },
     "minecraft:soul_campfire": {
         name: "Soul Campfire",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/soul_campfire.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/soul_campfire.png"
     },
     "minecraft:soul_fire": {
         name: "Soul Fire",
@@ -5181,7 +5247,7 @@ const itemDefinitions = {
     },
     "minecraft:soul_lantern": {
         name: "Soul Lantern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/soul_lantern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/soul_lantern.png"
     },
     "minecraft:soul_sand": {
         name: "Soul Sand",
@@ -5193,7 +5259,7 @@ const itemDefinitions = {
     },
     "minecraft:soul_torch": {
         name: "Soul Torch",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/soul_torch.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/soul_torch.png"
     },
     "minecraft:sponge": {
         name: "Sponge",
@@ -5209,7 +5275,7 @@ const itemDefinitions = {
     },
     "minecraft:spruce_door": {
         name: "Spruce Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/spruce_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/spruce_door.png"
     },
     "minecraft:spruce_fence": {
         name: "Spruce Fence",
@@ -5221,7 +5287,7 @@ const itemDefinitions = {
     },
     "minecraft:spruce_hanging_sign": {
         name: "Spruce Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/spruce_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/spruce_hanging_sign.png"
     },
     "minecraft:spruce_leaves": {
         name: "Spruce Leaves",
@@ -5241,7 +5307,7 @@ const itemDefinitions = {
     },
     "minecraft:spruce_sapling": {
         name: "Spruce Sapling",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/spruce_sapling.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/spruce_sapling.png"
     },
     "minecraft:spruce_shelf": {
         name: "Spruce Shelf",
@@ -5249,7 +5315,7 @@ const itemDefinitions = {
     },
     "minecraft:spruce_sign": {
         name: "Spruce Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/spruce_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/spruce_sign.png"
     },
     "minecraft:spruce_slab": {
         name: "Spruce Slab",
@@ -5405,15 +5471,15 @@ const itemDefinitions = {
     },
     "minecraft:structure_void": {
         name: "Structure Void",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/structure_void.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/structure_void.png"
     },
     "minecraft:sugar_cane": {
         name: "Sugar Cane",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/sugar_cane.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/sugar_cane.png"
     },
     "minecraft:sunflower": {
         name: "Sunflower",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/sunflower_front.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/sunflower_front.png"
     },
     "minecraft:suspicious_gravel": {
         name: "Suspicious Gravel",
@@ -5425,11 +5491,11 @@ const itemDefinitions = {
     },
     "minecraft:tall_dry_grass": {
         name: "Tall Dry Grass",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/tall_dry_grass.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/tall_dry_grass.png"
     },
     "minecraft:tall_grass": {
         name: "Tall Grass",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/tall_grass_top.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/tall_grass_top.png"
     },
     "minecraft:target": {
         name: "Target",
@@ -5459,11 +5525,11 @@ const itemDefinitions = {
     },
     "minecraft:torch": {
         name: "Torch",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/torch.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/torch.png"
     },
     "minecraft:torchflower": {
         name: "Torchflower",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/torchflower.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/torchflower.png"
     },
     "minecraft:trapped_chest": {
         name: "Trapped Chest",
@@ -5475,11 +5541,11 @@ const itemDefinitions = {
     },
     "minecraft:tripwire_hook": {
         name: "Tripwire Hook",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/tripwire_hook.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/tripwire_hook.png"
     },
     "minecraft:tube_coral": {
         name: "Tube Coral",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/tube_coral.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/tube_coral.png"
     },
     "minecraft:tube_coral_block": {
         name: "Tube Coral Block",
@@ -5487,7 +5553,7 @@ const itemDefinitions = {
     },
     "minecraft:tube_coral_fan": {
         name: "Tube Coral Fan",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/tube_coral_fan.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/tube_coral_fan.png"
     },
     "minecraft:tuff": {
         name: "Tuff",
@@ -5523,11 +5589,11 @@ const itemDefinitions = {
     },
     "minecraft:turtle_egg": {
         name: "Turtle Egg",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/turtle_egg.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/turtle_egg.png"
     },
     "minecraft:twisting_vines": {
         name: "Twisting Vines",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/twisting_vines.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/twisting_vines.png"
     },
     "minecraft:vault": {
         name: "Vault",
@@ -5539,7 +5605,7 @@ const itemDefinitions = {
     },
     "minecraft:vines": {
         name: "Vines",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/vine.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/vine.png"
     },
     "minecraft:warped_button": {
         name: "Warped Button",
@@ -5547,7 +5613,7 @@ const itemDefinitions = {
     },
     "minecraft:warped_door": {
         name: "Warped Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/warped_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/warped_door.png"
     },
     "minecraft:warped_fence": {
         name: "Warped Fence",
@@ -5559,11 +5625,11 @@ const itemDefinitions = {
     },
     "minecraft:warped_fungus": {
         name: "Warped Fungus",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/warped_fungus.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/warped_fungus.png"
     },
     "minecraft:warped_hanging_sign": {
         name: "Warped Hanging Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/warped_hanging_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/warped_hanging_sign.png"
     },
     "minecraft:warped_hyphae": {
         name: "Warped Hyphae",
@@ -5583,7 +5649,7 @@ const itemDefinitions = {
     },
     "minecraft:warped_roots": {
         name: "Warped Roots",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/warped_roots.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/warped_roots.png"
     },
     "minecraft:warped_shelf": {
         name: "Warped Shelf",
@@ -5591,7 +5657,7 @@ const itemDefinitions = {
     },
     "minecraft:warped_sign": {
         name: "Warped Sign",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/warped_sign.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/warped_sign.png"
     },
     "minecraft:warped_slab": {
         name: "Warped Slab",
@@ -5634,7 +5700,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_copper_bars": {
         name: "Waxed Copper Bars",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/copper_bars.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/copper_bars.png"
     },
     "minecraft:waxed_copper_bulb": {
         name: "Waxed Copper Bulb",
@@ -5642,7 +5708,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_copper_chain": {
         name: "Waxed Copper Chain",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_chain.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_chain.png"
     },
     "minecraft:waxed_copper_chest": {
         name: "Waxed Copper Chest",
@@ -5650,7 +5716,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_copper_door": {
         name: "Waxed Copper Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_door.png"
     },
     "minecraft:waxed_copper_golem_statue": {
         name: "Waxed Copper Golem Statue",
@@ -5662,7 +5728,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_copper_lantern": {
         name: "Waxed Copper Lantern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/copper_lantern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/copper_lantern.png"
     },
     "minecraft:waxed_copper_trapdoor": {
         name: "Waxed Copper Trapdoor",
@@ -5690,7 +5756,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_exposed_copper_bars": {
         name: "Waxed Exposed Copper Bars",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/exposed_copper_bars.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/exposed_copper_bars.png"
     },
     "minecraft:waxed_exposed_copper_bulb": {
         name: "Waxed Exposed Copper Bulb",
@@ -5698,7 +5764,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_exposed_copper_chain": {
         name: "Waxed Exposed Copper Chain",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/exposed_copper_chain.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/exposed_copper_chain.png"
     },
     "minecraft:waxed_exposed_copper_chest": {
         name: "Waxed Exposed Copper Chest",
@@ -5706,7 +5772,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_exposed_copper_door": {
         name: "Waxed Exposed Copper Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/exposed_copper_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/exposed_copper_door.png"
     },
     "minecraft:waxed_exposed_copper_golem_statue": {
         name: "Waxed Exposed Copper Golem Statue",
@@ -5718,7 +5784,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_exposed_copper_lantern": {
         name: "Waxed Exposed Copper Lantern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/exposed_copper_lantern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/exposed_copper_lantern.png"
     },
     "minecraft:waxed_exposed_copper_trapdoor": {
         name: "Waxed Exposed Copper Trapdoor",
@@ -5746,7 +5812,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_oxidized_copper_bars": {
         name: "Waxed Oxidized Copper Bars",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/oxidized_copper_bars.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/oxidized_copper_bars.png"
     },
     "minecraft:waxed_oxidized_copper_bulb": {
         name: "Waxed Oxidized Copper Bulb",
@@ -5754,7 +5820,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_oxidized_copper_chain": {
         name: "Waxed Oxidized Copper Chain",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oxidized_copper_chain.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oxidized_copper_chain.png"
     },
     "minecraft:waxed_oxidized_copper_chest": {
         name: "Waxed Oxidized Copper Chest",
@@ -5762,7 +5828,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_oxidized_copper_door": {
         name: "Waxed Oxidized Copper Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oxidized_copper_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oxidized_copper_door.png"
     },
     "minecraft:waxed_oxidized_copper_golem_statue": {
         name: "Waxed Oxidized Copper Golem Statue",
@@ -5774,7 +5840,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_oxidized_copper_lantern": {
         name: "Waxed Oxidized Copper Lantern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/oxidized_copper_lantern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/oxidized_copper_lantern.png"
     },
     "minecraft:waxed_oxidized_copper_trapdoor": {
         name: "Waxed Oxidized Copper Trapdoor",
@@ -5802,7 +5868,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_weathered_copper_bars": {
         name: "Waxed Weathered Copper Bars",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/weathered_copper_bars.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/weathered_copper_bars.png"
     },
     "minecraft:waxed_weathered_copper_bulb": {
         name: "Waxed Weathered Copper Bulb",
@@ -5810,7 +5876,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_weathered_copper_chain": {
         name: "Waxed Weathered Copper Chain",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/weathered_copper_chain.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/weathered_copper_chain.png"
     },
     "minecraft:waxed_weathered_copper_chest": {
         name: "Waxed Weathered Copper Chest",
@@ -5818,7 +5884,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_weathered_copper_door": {
         name: "Waxed Weathered Copper Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/weathered_copper_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/weathered_copper_door.png"
     },
     "minecraft:waxed_weathered_copper_golem_statue": {
         name: "Waxed Weathered Copper Golem Statue",
@@ -5830,7 +5896,7 @@ const itemDefinitions = {
     },
     "minecraft:waxed_weathered_copper_lantern": {
         name: "Waxed Weathered Copper Lantern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/weathered_copper_lantern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/weathered_copper_lantern.png"
     },
     "minecraft:waxed_weathered_copper_trapdoor": {
         name: "Waxed Weathered Copper Trapdoor",
@@ -5858,7 +5924,7 @@ const itemDefinitions = {
     },
     "minecraft:weathered_copper_bars": {
         name: "Weathered Copper Bars",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/weathered_copper_bars.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/weathered_copper_bars.png"
     },
     "minecraft:weathered_copper_bulb": {
         name: "Weathered Copper Bulb",
@@ -5866,7 +5932,7 @@ const itemDefinitions = {
     },
     "minecraft:weathered_copper_chain": {
         name: "Weathered Copper Chain",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/weathered_copper_chain.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/weathered_copper_chain.png"
     },
     "minecraft:weathered_copper_chest": {
         name: "Weathered Copper Chest",
@@ -5874,7 +5940,7 @@ const itemDefinitions = {
     },
     "minecraft:weathered_copper_door": {
         name: "Weathered Copper Door",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/weathered_copper_door.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/weathered_copper_door.png"
     },
     "minecraft:weathered_copper_golem_statue": {
         name: "Weathered Copper Golem Statue",
@@ -5886,7 +5952,7 @@ const itemDefinitions = {
     },
     "minecraft:weathered_copper_lantern": {
         name: "Weathered Copper Lantern",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/weathered_copper_lantern.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/weathered_copper_lantern.png"
     },
     "minecraft:weathered_copper_trapdoor": {
         name: "Weathered Copper Trapdoor",
@@ -5926,7 +5992,7 @@ const itemDefinitions = {
     },
     "minecraft:weeping_vines": {
         name: "Weeping Vines",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/weeping_vines.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/weeping_vines.png"
     },
     "minecraft:wet_sponge": {
         name: "Wet Sponge",
@@ -5942,7 +6008,7 @@ const itemDefinitions = {
     },
     "minecraft:white_candle": {
         name: "White Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/white_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/white_candle.png"
     },
     "minecraft:white_carpet": {
         name: "White Carpet",
@@ -5982,15 +6048,15 @@ const itemDefinitions = {
     },
     "minecraft:white_tulip": {
         name: "White Tulip",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/white_tulip.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/white_tulip.png"
     },
     "minecraft:wildflowers": {
         name: "Wildflowers",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/wildflowers.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/wildflowers.png"
     },
     "minecraft:wither_rose": {
         name: "Wither Rose",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/block/wither_rose.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/block/wither_rose.png"
     },
     "minecraft:wither_skeleton_skull": {
         name: "Wither Skeleton Skull",
@@ -6006,7 +6072,7 @@ const itemDefinitions = {
     },
     "minecraft:yellow_candle": {
         name: "Yellow Candle",
-        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.10/assets/minecraft/textures/item/yellow_candle.png"
+        texture: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.11/assets/minecraft/textures/item/yellow_candle.png"
     },
     "minecraft:yellow_carpet": {
         name: "Yellow Carpet",
